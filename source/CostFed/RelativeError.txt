@@ -1,0 +1,124 @@
+
+
+<http://aksw.org/res/query#q1>  <http://aksw.org/schema/text> "SELECT ?predicate ?object WHERE {   { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object }   UNION       { ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .     ?subject ?predicate ?object } }" .
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/costfed-q1-plan> .
+<http://aksw.org/res/costfed-q1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/costfed-q1-plan-join#1> .
+<http://aksw.org/res/costfed-q1-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "13"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/costfed-q1-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/costfed-q1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/costfed-q1-plan-join#1-tp1> .
+<http://aksw.org/res/costfed-q1-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/costfed-q1-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/costfed-q1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/costfed-q1-plan-join#1-tp2> .
+<http://aksw.org/res/costfed-q1-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "114973310"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/costfed-q1-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "114961382"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+<http://aksw.org/res/costfed-q1-plan> <http://aksw.org/schema/hasSimilarity> "0.9999999999999951"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+-------------------
+Left Join Real Cardinality: 1620
+Join Estimated: 1117
+Join Relative Error: -0.31049383
+-------------------
+
+-------------------
+Left Join Real Cardinality: 1620
+Join Estimated: 1117
+Join Relative Error: -0.31049383
+-------------------
+
+-------------------
+Left Join Real Cardinality: 1620
+Join Estimated: 1117
+Join Relative Error: -0.31049383
+-------------------
+
+-------------------
+Left Join Real Cardinality: 1620
+Join Estimated: 1117
+Join Relative Error: -0.31049383
+-------------------
+
+-------------------
+Left Join Real Cardinality: 1620
+Join Estimated: 1117
+Join Relative Error: -0.31049383
+-------------------
+
+-------------------
+Left Join Real Cardinality: 0
+Join Estimated: 945
+Join Relative Error: Infinity
+-------------------
+
+-------------------
+Left Join Real Cardinality: 0
+Join Estimated: 945
+Join Relative Error: Infinity
+-------------------
+
+-------------------
+Left Join Real Cardinality: 0
+Join Estimated: 945
+Join Relative Error: Infinity
+-------------------
+
+-------------------
+Left Join Real Cardinality: 0
+Join Estimated: 945
+Join Relative Error: Infinity
+-------------------
+
+-------------------
+Left Join Real Cardinality: 7
+Join Estimated: 945
+Join Relative Error: 134.0
+-------------------
+
+-------------------
+Left Join Real Cardinality: 7
+Join Estimated: 945
+Join Relative Error: 134.0
+-------------------
+
+-------------------
+Left Join Real Cardinality: 6
+Join Estimated: 945
+Join Relative Error: 156.5
+-------------------
+
+-------------------
+Left Join Real Cardinality: 7
+Join Estimated: 945
+Join Relative Error: 134.0
+-------------------
+
+-------------------
+Left Join Real Cardinality: 112
+Join Estimated: 0
+Join Relative Error: -1.0
+-------------------
+
+-------------------
+Left Join Real Cardinality: 112
+Join Estimated: 0
+Join Relative Error: -1.0
+-------------------
+
+-------------------
+Left Join Real Cardinality: 1010
+Join Estimated: 1321
+Join Relative Error: 0.30792078
+-------------------
+
+-------------------
+Left Join Real Cardinality: 112
+Join Estimated: 0
+Join Relative Error: -1.0
+-------------------
+
+-------------------
+Left Join Real Cardinality: 3073
+Join Estimated: 348
+Join Relative Error: -0.8867556
+-------------------

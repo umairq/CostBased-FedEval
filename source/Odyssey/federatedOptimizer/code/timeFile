@@ -1,0 +1,24 @@
+log4j:WARN No appenders could be found for logger (com.fluidops.fedx.Config).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/MuhammadSaleem/umair/evaluation/odeyssey/roott/apache-jena-2.13.0/lib/slf4j-log4j12-1.7.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/MuhammadSaleem/umair/evaluation/odeyssey/roott/federatedOptimizer/lib/fedX3.1/lib/slf4j-log4j12-1.5.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+com.fluidops.fedx.exception.FedXRuntimeException: QueryManager not initialized, used FedXFactory methods to initialize FedX correctly.
+	at com.fluidops.fedx.QueryManager.prepareQuery(QueryManager.java:218)
+	at com.fluidops.fedx.QueryManager.prepareTupleQuery(QueryManager.java:159)
+	at evaluateSPARQLQuery.evaluateSubQuery(evaluateSPARQLQuery.java:387)
+	at evaluateSPARQLQuery.recCardinalityCheck(evaluateSPARQLQuery.java:470)
+	at evaluateSPARQLQuery.computeRelativeErrors(evaluateSPARQLQuery.java:418)
+	at evaluateSPARQLQuery.main(evaluateSPARQLQuery.java:335)
+Error executting query
+com.fluidops.fedx.exception.FedXRuntimeException: QueryManager not initialized, used FedXFactory methods to initialize FedX correctly.
+	at com.fluidops.fedx.QueryManager.prepareQuery(QueryManager.java:218)
+	at com.fluidops.fedx.QueryManager.prepareTupleQuery(QueryManager.java:159)
+	at evaluateSPARQLQuery.evaluate(evaluateSPARQLQuery.java:364)
+	at evaluateSPARQLQuery.main(evaluateSPARQLQuery.java:349)
+Error executing query
+Command exited with non-zero status 1
+6.71 406% 0 1560096

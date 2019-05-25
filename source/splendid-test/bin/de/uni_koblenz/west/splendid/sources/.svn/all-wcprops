@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/sources
+END
+IndexSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/sources/IndexSelector.java
+END
+IndexAskSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/sources/IndexAskSelector.java
+END
+SourceSelectorBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/sources/SourceSelectorBase.java
+END
+TriplePatternIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/sources/TriplePatternIndex.java
+END
+SourceSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/sources/SourceSelector.java
+END
+AskSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/sources/AskSelector.java
+END

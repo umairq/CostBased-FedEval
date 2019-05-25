@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test
+END
+void1.n3
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/void1.n3
+END
+VoidStatisticsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/VoidStatisticsTest.java
+END
+SparqlEndpointTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/SparqlEndpointTest.java
+END
+SourceFinderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/SourceFinderTest.java
+END
+void2.n3
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/void2.n3
+END
+EvaluationStrategyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/EvaluationStrategyTest.java
+END
+FederationRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/FederationRepositoryTest.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/test/Test.java
+END

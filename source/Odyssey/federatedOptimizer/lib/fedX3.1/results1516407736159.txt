@@ -1,0 +1,1505 @@
+1:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-california-berkeley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-california-berkeley> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1033
+2:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/chemnitz-university-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/chemnitz-university-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):2
+3:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://wit.istc.cnr.it/eswc-stc/workshops-calendar.rdf#0d6f967a-dae7-3620-b29b-a526517b8303_7> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):205
+4:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/jose-mora> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+5:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/paper/84> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+6:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/best-buy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/best-buy> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):2
+7:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/andrea-rodriguez> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+8:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/pierre-nugues> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+9:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-15/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+10:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/ontotext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/ontotext> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+11:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/hp-labs-bristol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/hp-labs-bristol> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+12:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/michigan-state-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/michigan-state-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+13:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/lrec/2008/proceedings> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+14:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.ida.liu.se/~janma/> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+15:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/poster-demo-proceedings/paper-17> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+16:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2012/industry-proceedings/paper-03> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+17:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006/talks/paper-presentation-ontology-evaluation-garcia-castro> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+18:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-bremen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-bremen> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+19:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-tsukuba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-tsukuba> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+20:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/universidade-nova-de-lisboa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/universidade-nova-de-lisboa> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+21:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/national-and-kapodistrian-university-of-athens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/national-and-kapodistrian-university-of-athens> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+22:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/massachusetts-institute-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/massachusetts-institute-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+23:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/david-camacho> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+24:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/inria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/inria> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):2
+25:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-texas-at-el-paso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-texas-at-el-paso> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+26:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/oak-ridge-national-laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/oak-ridge-national-laboratory> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+27:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/rutgers-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/rutgers-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+28:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-toronto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-toronto> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+29:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/gareth-jones> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+30:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/jacobs-university-bremen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/jacobs-university-bremen> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+31:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/hasso-plattner-institute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/hasso-plattner-institute> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+32:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/paper/442/authorlist> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+33:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2004/poster-proceedings/paper-04> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+34:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012/paper/955/talk/speaker> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+35:-------------------------------------
+ PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  ical: <http://www.w3.org/2002/12/cal/ical#> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  swrc-ext: <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  swc:  <http://data.semanticweb.org/ns/swc/ontology#> PREFIX  dc:   <http://purl.org/dc/elements/1.1/>  SELECT  * WHERE   { ?s owl:sameAs ?o .     ?s rdf:type foaf:Person   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):28
+36:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/ibm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/ibm> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+37:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2010/paper/phd_symposium/5> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+38:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2007/time-20070604T170000EuropeVienna> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+39:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-surrey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-surrey> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+40:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2004/demo-proceedings/paper-01> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+41:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/yong-yu> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+42:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://kmi.open.ac.uk/people/index.cfm/idstring/alessio-gugliotta> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+43:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2002/poster-proceedings/paper-38/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+44:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/paris-sorbonne-university> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+45:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/oscar-pastor-lopez> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+46:-------------------------------------
+ PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  ical: <http://www.w3.org/2002/12/cal/ical#> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  swrc-ext: <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  swc:  <http://data.semanticweb.org/ns/swc/ontology#> PREFIX  dc:   <http://purl.org/dc/elements/1.1/>  SELECT  ?con ?rr WHERE   { ?con swc:hasPart ?rr } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+47:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/london-borough-of-camden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/london-borough-of-camden> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+48:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/public-research-centre-henri-tudor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/public-research-centre-henri-tudor> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):2
+49:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/goeffrey-squire> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+50:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/zhejiang-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/zhejiang-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+51:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-peloponnese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-peloponnese> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+52:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/laval-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/laval-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+53:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-turin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-turin> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+54:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/christian-bonkowski> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+55:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/lyndon-j-b-nixon> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+56:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/agfa-gevaert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/agfa-gevaert> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+57:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www-lsr.imag.fr/Les.Personnes/Marie-Christine.Rousset/> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+58:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/grigoris-antoniou> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+59:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/lizhu-zhang> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+60:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-laquila> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-laquila> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+61:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/iowa-state-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/iowa-state-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+62:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.eswc2006.org/topics/#topic2.1> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+63:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/fis/2010/paper/posters/10/authors> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+64:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/yahoo-research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/yahoo-research> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):12
+65:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/brandeis-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/brandeis-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+66:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/ibm-research-usa> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+67:-------------------------------------
+ PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> PREFIX  swrc: <http://swrc.ontoware.org/ontology#> PREFIX  ical: <http://www.w3.org/2002/12/cal/ical#> PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX  owl:  <http://www.w3.org/2002/07/owl#> PREFIX  swrc-ext: <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#> PREFIX  dcterms: <http://purl.org/dc/terms/> PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX  foaf: <http://xmlns.com/foaf/0.1/> PREFIX  swc:  <http://data.semanticweb.org/ns/swc/ontology#> PREFIX  dc:   <http://purl.org/dc/elements/1.1/>  SELECT  ?title ?year WHERE   { ?x rdf:type swrc:InProceedings .     ?x dc:title ?title .     ?x swrc:abstract ?abstract .     ?x swrc:year ?year .     ?x dc:creator ?creator   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):3
+68:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/maebashi-institute-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/maebashi-institute-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+69:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/pacific-northwest-national-laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/pacific-northwest-national-laboratory> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+70:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/marcin-davies> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+71:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-39/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+72:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006/paper/pazienza-stellato> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+73:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2014/paper/demo/97/authorlist> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+74:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/qinetiq-ltd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/qinetiq-ltd> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+75:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-leeds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-leeds> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+76:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-southern-california> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-southern-california> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+77:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-arkansas-for-medical-sciences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-arkansas-for-medical-sciences> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+78:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/karlsruhe-institute-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/karlsruhe-institute-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+79:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+80:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/politecnico-di-milano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/politecnico-di-milano> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+81:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2012/paper/project-networking/366> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+82:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2005/poster-demo-proceedings/paper-71/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+83:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-hanover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-hanover> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+84:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2009/paper/industry/02> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+85:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/sapienza-university-of-rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/sapienza-university-of-rome> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+86:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-oxford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-oxford> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+87:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.eswc2007.org/pdf/eswc07-hartig.pdf> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+88:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/american-university-of-beirut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/american-university-of-beirut> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+89:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/kwansei-gakuin-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/kwansei-gakuin-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+90:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/stockholm-university> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+91:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012/proceedings> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+92:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-manchester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-manchester> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+93:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/aritificial-intelligence-journal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/aritificial-intelligence-journal> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+94:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2008/research/chair/doctoralconsortiumchair> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+95:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-illinois-at-urbanachampaign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-illinois-at-urbanachampaign> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+96:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/german-research-centre-for-artificial-intelligence> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+97:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/rr/2011/full/165/authors> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+98:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/bea-systems-inc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/bea-systems-inc> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+99:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.eswc2006.org/topics/#topic2.4.4> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+100:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/dh/2010/abstracts/poster/ab-804> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+101:-------------------------------------
+ SELECT  ?o WHERE   { <http://data.semanticweb.org/organization/rice-university> <http://xmlns.com/foaf/0.1/name> ?o } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+102:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/lrec/2008/papers/215> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+103:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/nectec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/nectec> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+104:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/alexander-boldakov> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+105:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/bielefeld-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/bielefeld-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):3
+106:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/europeana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/europeana> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+107:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/vienna-university-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/vienna-university-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+108:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/workshop/om/2013/proceedings/paper-03> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+109:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+110:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/cwi-amsterdam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/cwi-amsterdam> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+111:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/poznan-university-of-economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/poznan-university-of-economics> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+112:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/london> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+113:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/microsoft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/microsoft> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+114:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-lyon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-lyon> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+115:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/benedicto-rodriguez> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+116:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/lancaster-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/lancaster-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+117:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/czech-technical-university-in-prague> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/czech-technical-university-in-prague> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+118:-------------------------------------
+ SELECT  * WHERE   { ?person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+119:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2007/time-20070604T163000EuropeVienna> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+120:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-24> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+121:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-technology-sydney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-technology-sydney> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+122:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+123:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/intersticia> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+124:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.cs.iastate.edu/~honavar/> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+125:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/duke-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/duke-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+126:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://lsirpeople.epfl.ch/aberer/> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+127:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/swiss-institute-of-bioinformatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/swiss-institute-of-bioinformatics> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+128:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006/paper/debruijn-lausen> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+129:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/bijan-parsia> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+130:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/workshop/swcs/2012/paper/5> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+131:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day1/1325/paperlist> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+132:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/jonathan-mortensen> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+133:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/warsaw-university-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/warsaw-university-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+134:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/workshop/sml2od/2013/proceedings/paper-06/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+135:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/bbn-technologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/bbn-technologies> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+136:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-ioannina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-ioannina> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+137:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2003/proceedings/paper-04/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+138:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2012/proceedings-2/paper-11/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+139:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-G> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+140:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/leipzig-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/leipzig-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+141:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/concordia-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/concordia-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+142:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/national-technical-university-of-athens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/national-technical-university-of-athens> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+143:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2001/participant> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+144:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.eswc2006.org/topics/#topic2.6> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+145:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/yanqing-cui> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+146:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-grenoble> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-grenoble> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+147:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/athens-university-of-economics-and-business> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+148:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/mitre-corporation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/mitre-corporation> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+149:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/liping-wang> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+150:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/linkedin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/linkedin> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+151:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/journal-of-web-semantics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/journal-of-web-semantics> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+152:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/hugh-williams> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+153:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/national-institute-of-informatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/national-institute-of-informatics> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+154:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/csiro-australia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/csiro-australia> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+155:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2004/poster-proceedings/paper-29/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+156:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2012/pc-member-at-iswc2012-research-track> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+157:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/florida-institute-for-human-and-machine-cognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/florida-institute-for-human-and-machine-cognition> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+158:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.eswc2007.org/pdf/eswc07-schreoter.pdf> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+159:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012/paper/571> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+160:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/kaiserslautern-university-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/kaiserslautern-university-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+161:-------------------------------------
+ SELECT  ?p ?o WHERE   { <http://www.w3.org/2002/07/owl#AnnotationProperty> ?p ?o } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+162:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/cern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/cern> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+163:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2011/poster/timestamp-based-cache-invalidation-for-search-engi/authors> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+164:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/workshop/crowdsem/2013/proceedings/paper-04> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+165:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006/roles/paper-presenter-semantic-annotation-2-buitelaar> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+166:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/dh/2010/abstract-proceedings> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+167:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/paypal> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+168:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-nantes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-nantes> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+169:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/yahoo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/yahoo> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+170:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/workshop/crowdsem/2013/proceedings> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+171:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/charles-iii-university-of-madrid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/charles-iii-university-of-madrid> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+172:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/daimler-ag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/daimler-ag> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+173:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/french-national-centre-for-scientific-research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/french-national-centre-for-scientific-research> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+174:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/university-of-kentucky> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+175:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-edinburgh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-edinburgh> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+176:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/in-use-2-chair> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+177:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-lisbon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-lisbon> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+178:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://knoesis.org/~amit> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+179:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2008/paper/research/251> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+180:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.few.vu.nl/~gazendam/> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+181:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/david-tomas> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+182:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006/sessions/paper-session-searching-and-querying> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+183:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/iit-varanasi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/iit-varanasi> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+184:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/chinese-academy-of-sciences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/chinese-academy-of-sciences> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+185:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/sponsor/ontotext> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+186:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/workshop/ocas/2011/paper/13> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+187:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-bergen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-bergen> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+188:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/ghent-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/ghent-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+189:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/verticalnet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/verticalnet> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+190:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-zurich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-zurich> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+191:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-muenster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-muenster> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+192:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2009/proceedings> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+193:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/johannes-kepler-university-of-linz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/johannes-kepler-university-of-linz> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+194:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/york-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/york-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):2
+195:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/ann-chervenak> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+196:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-tokyo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-tokyo> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+197:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-texas-at-austin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-texas-at-austin> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+198:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/workshop/lisc/2013/session4> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+199:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2008/paper/823> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+200:-------------------------------------
+ SELECT  ?o ?p WHERE   { <http://data.semanticweb.org/organization/microsoft-research> ?p ?o } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+201:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/google-inc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/google-inc> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+202:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-aberdeen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-aberdeen> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+203:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/paper/419/authorlist> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+204:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012/paper/370> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+205:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-bari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-bari> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+206:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/pc-member-at-iswc2013-research-track> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+207:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/embryriddle-aeronautical-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/embryriddle-aeronautical-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+208:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/dieter-fensel> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+209:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/matthias-weidl> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+210:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/university-of-sheffield-uk> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+211:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/john-g-keating> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+212:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/technische-universitaet-ilmenau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/technische-universitaet-ilmenau> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+213:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2011/programme-committee-member> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+214:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/kansai-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/kansai-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+215:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.eswc2007.org/pdf/eswc07-ceri.pdf> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+216:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006/roles/paper-presenter-searching-and-querying-chirita> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+217:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012/event/281> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+218:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/w3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/w3c> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):6
+219:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/georgia-institute-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/georgia-institute-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):2
+220:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-hasselt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-hasselt> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+221:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/france-telecom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/france-telecom> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+222:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://sisinflab.poliba.it/donini/> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+223:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/proceedings-2/paper-23> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+224:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-trento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-trento> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+225:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/pierre-maret> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+226:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/person/tim-finin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/person/tim-finin> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+227:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012/demo/34> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+228:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/proceedings-1> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+229:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/tsinghua-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/tsinghua-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+230:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/italian-national-research-council> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/italian-national-research-council> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+231:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/keio-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/keio-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+232:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/roma-tre-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/roma-tre-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+233:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/john-chuang> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+234:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-washington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-washington> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+235:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/queensland-university-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/queensland-university-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+236:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-cagliari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-cagliari> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+237:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc-aswc/2007/tracks/posters-demos/talks/390> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+238:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/ibm-research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/ibm-research> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+239:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-rennes-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-rennes-1> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+240:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/university-of-toronto> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+241:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://oxygen.informatik.tu-cottbus.de/IT> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+242:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/wolters-kluwer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/wolters-kluwer> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+243:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/instituto-superior-tecnico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/instituto-superior-tecnico> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+244:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.ics.mq.edu.au/~rolfs> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+245:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/p-tena> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+246:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-oviedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-oviedo> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+247:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/australian-bureau-of-statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/australian-bureau-of-statistics> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+248:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.eswc2007.org/pdf/eswc07-valkeapaa.pdf> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+249:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/joenkoeping-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/joenkoeping-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+250:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.ing.unife.it/docenti/MarcoGavanelli/> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+251:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/marche-polytechnic-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/marche-polytechnic-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+252:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-pittsburgh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-pittsburgh> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+253:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2014/workshopsProceedings> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+254:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-economics-prague> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-economics-prague> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+255:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2004/session-05/event-02> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+256:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-udine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-udine> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+257:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/osaka-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/osaka-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+258:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2003/pc-member> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+259:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-southampton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-southampton> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+260:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/sapienza-university-of-rome> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+261:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2012/proceedings-2/paper-05> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+262:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/gavino-paddeu> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+263:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/dstc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/dstc> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+264:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2004/proceedings/paper-56> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+265:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/nih> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/nih> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+266:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/session-4b/event-01> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+267:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/deri-galway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/deri-galway> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+268:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2012/proceedings-1/paper-34> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+269:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2009/paper/68> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+270:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/new-york-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/new-york-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+271:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/sony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/sony> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+272:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/united-states-naval-academy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/united-states-naval-academy> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+273:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2014/paper/research/87> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+274:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-modena-and-reggio-emilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-modena-and-reggio-emilia> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+275:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/hewlett-packard-laboratories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/hewlett-packard-laboratories> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+276:-------------------------------------
+ SELECT  ?o ?p WHERE   { <http://data.semanticweb.org/organization/stanford-university> ?p ?o } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+277:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/shanghai-jiao-tong-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/shanghai-jiao-tong-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+278:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-naples-federico-ii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-naples-federico-ii> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+279:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2009/track/research/talk/39> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+280:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://wit.istc.cnr.it/eswc-stc/workshops-calendar.rdf#c6b56669-6aca-3258-a836-37c696ee50b3_104> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+281:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2007/location-freiburg1> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+282:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/bonaventura-coppola> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+283:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/microsoft-research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/microsoft-research> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+284:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/session-dc-3> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+285:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/stanford-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/stanford-university> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+286:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-liverpool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-liverpool> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+287:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2001/proceedings/paper-11/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+288:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/bell-labs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/bell-labs> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+289:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/organization/deri-nui-galway> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+290:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/packard-bell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/packard-bell> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+291:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/lrec/2008/papers/133/authors> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+292:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2013/program-chair> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+293:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc-aswc/2007/tracks/research/session/research-11-ontology-design> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+294:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/national-university-of-ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/national-university-of-ireland> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+295:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/nicta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/nicta> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+296:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2001/position-proceedings/paper-16/author_list> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+297:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/naama-zwerdling> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+298:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/tokyo-institute-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/tokyo-institute-of-technology> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+299:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-the-basque-country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-the-basque-country> ?prop ?val   } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):0
+300:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/fabio-ciravegna> ?property ?value } 
+ error in running query. processing bypassed ..
+Total Number of Records: 0
+: Query execution time (msec):1
+
+############## Total timeout queries: 0 ##############
+
+-----
+Query Mix execution time (msec):1491

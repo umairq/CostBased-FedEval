@@ -1,0 +1,29 @@
+prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+prefix geonames: <http://www.geonames.org/ontology#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+Prefix dbpedia: <http://dbpedia.org/ontology/>
+PREFIX swc: <http://data.semanticweb.org/ns/swc/ontology#>
+PREFIX swrc: <http://swrc.ontoware.org/ontology#>
+PREFIX eswc: <http://data.semanticweb.org/conference/eswc/>
+PREFIX nytimes: <http://data.nytimes.com/elements/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT DISTINCT *
+{
+?place geonames:name ?countryName;
+geonames:countryCode ?countryCode;
+geonames:population  ?population;
+geo:long   ?longitude;
+geo:lat     ?latitude;
+owl:sameAs   ?geonameplace.
+?geonameplace dbpedia:capital ?capital;
+dbpedia:anthem ?nationalAnthem;
+dbpedia:foundingDate ?foundingDate;
+dbpedia:largestCity ?largestCity;
+dbpedia:ethnicGroup ?ethnicGroup;
+dbpedia:motto ?motto.
+?role swc:heldBy ?writer.
+?writer foaf:based_near ?geonameplace.
+?dbpediaCountry owl:sameAs ?geonameplace ;
+nytimes:latest_use ?dateused
+}
+Order by Desc (?population)

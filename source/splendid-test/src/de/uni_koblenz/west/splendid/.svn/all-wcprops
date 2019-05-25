@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/192/trunk/src/de/uni_koblenz/west/splendid
+END
+VoidRepositoryConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/190/trunk/src/de/uni_koblenz/west/splendid/VoidRepositoryConnection.java
+END
+VoidRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/VoidRepository.java
+END
+FederationSail.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/190/trunk/src/de/uni_koblenz/west/splendid/FederationSail.java
+END
+FederationSailConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/FederationSailConnection.java
+END
+SPLENDID.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/183/trunk/src/de/uni_koblenz/west/splendid/SPLENDID.java
+END

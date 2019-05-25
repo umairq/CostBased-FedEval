@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/statistics/util
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/statistics/util/FileUtil.java
+END
+VoidGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/statistics/util/VoidGenerator.java
+END
+CompactBNodeTurtleWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/statistics/util/CompactBNodeTurtleWriter.java
+END
+StructurednessAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/statistics/util/StructurednessAnalyzer.java
+END

@@ -1,0 +1,27 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>
+PREFIX kegg: <http://bio2rdf.org/ns/kegg#>
+PREFIX chebi: <http://bio2rdf.org/ns/chebi#>
+PREFIX purl: <http://purl.org/dc/elements/1.1/>
+PREFIX bio2RDF: <http://bio2rdf.org/ns/bio2rdf#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX tcga: <http://tcga.deri.ie/schema/>
+SELECT  * 
+WHERE 
+{
+?drugbcr tcga:drug_name ?drug. 
+?drgBnkDrg  drugbank:genericName ?drug.
+?drgBnkDrg owl:sameAs ?dbpediaDrug .
+?dbpediaDrug rdfs:label ?label .
+?drgBnkDrg drugbank:keggCompoundId ?keggDrug .
+?keggDrug bio2RDF:mass ?keggmass .
+?keggDrug purl:title ?title .
+?chebiDrug purl:title ?drug  ;
+bio2RDF:mass ?mass;
+bio2RDF:formula ?formula;
+bio2RDF:urlImage ?image
+}
+Order by (?mass)

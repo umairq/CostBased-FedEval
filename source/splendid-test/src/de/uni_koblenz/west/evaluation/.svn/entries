@@ -1,0 +1,52 @@
+8
+
+dir
+192
+http://rdffederator.googlecode.com/svn/trunk/src/de/uni_koblenz/west/evaluation
+http://rdffederator.googlecode.com/svn
+
+
+
+2011-11-18T17:08:58.838207Z
+184
+olaf.goerlitz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d23ae19b-2206-6962-c3d4-7c8097259e2e
+
+QueryProcessingEval.java
+file
+
+
+
+
+2013-02-18T16:43:22.220000Z
+1b61e22358ef24172ccb713c850f1071
+2011-11-18T17:08:58.838207Z
+184
+olaf.goerlitz
+
+SourceSelectionEval.java
+file
+
+
+
+
+2013-02-18T16:43:22.235000Z
+81a8d2dae503401951309bfdd0dd1e48
+2011-11-18T17:08:58.838207Z
+184
+olaf.goerlitz
+

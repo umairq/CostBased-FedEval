@@ -1,0 +1,69 @@
+################################################################################
+# Sesame configuration for SPLENDID Federation.
+#
+# ATTENTION: the Sail implementing the sail:sailType must be published
+#            in META-INF/services/org.openrdf.sail.SailFactory
+################################################################################
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix rep:  <http://www.openrdf.org/config/repository#>.
+@prefix sr:   <http://www.openrdf.org/config/repository/sail#>.
+@prefix sail: <http://www.openrdf.org/config/sail#>.
+@prefix fed:  <http://west.uni-koblenz.de/config/federation/sail#>.
+@prefix src1: <http://localhost:8891/>.
+@prefix src2: <http://localhost:8892/>.
+@prefix src3: <http://localhost:8896/>.
+@prefix src4: <http://localhost:8897/>.
+
+[] a rep:Repository ;
+   rep:repositoryTitle "SPLENDID Federation" ;
+   rep:repositoryID "SPLENDID" ;
+   rep:repositoryImpl [
+      rep:repositoryType "openrdf:SailRepository" ;
+      sr:sailImpl [
+         sail:sailType "west:FederationSail" ;
+
+         # source selection {ASK, INDEX, INDEX_ASK}
+         fed:sourceSelection [
+            fed:selectorType "INDEX_ASK";
+            fed:useTypeStats true ;  # deprecated
+         ] ;
+
+         # optimizer settings {DYNAMIC_PROGRAMMING, PATTERN_HEURISTIC}
+         fed:queryOptimization [
+            fed:optimizerType "DYNAMIC_PROGRAMMING" ;
+
+            # cardinality estimation setting {VOID, VOID_PLUS, TRUE_CARD}            
+            fed:cardEstimator "VOID_PLUS" ;
+            
+            # sub query grouping
+            fed:groupBySource true ;
+            fed:groupBySameAs true ;
+            
+            # join operator implementation
+            fed:useBindJoin true ;
+            fed:useHashJoin true ;
+            
+            # use custom EvaluationStrategy
+#            fed:evalStrategy "de.uni_koblenz.west.splendid.evaluation.FedXEvaluationStrategy"
+         ] ;
+
+         # sparql endpoints
+         fed:member [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/drugbank_dump_cleaned-2010-11.26-void.n3> ;
+            void:sparqlEndpoint src2:sparql
+         ],  [
+		    rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/nytimes-2010-01-13-void.n3> ;
+            void:sparqlEndpoint src4:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/linkedmdb-dump-2010-01-19-void.n3> ;
+            void:sparqlEndpoint src3:sparql
+         ],  [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/dbpedia3.5.1_subset-void.n3> ;
+            void:sparqlEndpoint src1:sparql
+         ]
+      ]
+   ] .

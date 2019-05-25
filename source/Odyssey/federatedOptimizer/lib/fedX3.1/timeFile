@@ -1,0 +1,3 @@
+timeout: failed to run command ‘./cli.sh’: Permission denied
+Command exited with non-zero status 126
+0.00 0% 0 2260

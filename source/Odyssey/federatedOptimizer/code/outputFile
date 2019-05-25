@@ -1,0 +1,16 @@
+loading: 6470
+[?drug @http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint ?melt]
+estimated cardinalities: 
+1159
+?drug @http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint ?melt
+Triple Estimated Cardinality:1159
+[?drug @http://dbpedia.org/ontology/Drug/meltingPoint ?melt]
+Similarity Plan:NaN
+NumberSelectedSources=1
+NumberServices=1
+Plan: SELECT  ?drug ?melt
+WHERE
+  { SERVICE <http://localhost:8892/sparql>
+      { ?drug  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint>  ?melt .}
+  }
+

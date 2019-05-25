@@ -1,0 +1,366 @@
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/splendid-q2-plan> .
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/splendid-q2-plan-join#1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.144009365732543"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.6906573132395177"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/splendid-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/splendid-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0556015452538632"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/splendid-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.6664158612488692"^^<http://www.w3.org/2001/XMLSchema#double> .
+

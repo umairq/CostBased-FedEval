@@ -1,0 +1,44 @@
+PREFIX tcga: <http://tcga.deri.ie/schema/>
+PREFIX kegg: <http://bio2rdf.org/ns/kegg#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#>
+PREFIX nytimes: <http://data.nytimes.com/elements/>
+PREFIX jamendo: <http://dbtune.org/jamendo/artist/8028>	
+PREFIX linkedmdb: <http://data.linkedmdb.org/resource/movie/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX purl: <http://purl.org/dc/elements/1.1/>
+PREFIX bio2rdf: <http://bio2rdf.org/ns/bio2rdf#>
+
+SELECT  ?patient ?country ?articleCount ?chemicalStructure ?id
+WHERE
+{
+<http://tcga.deri.ie/TCGA-43-2576> 	tcga:bcr_patient_barcode 		?patient .
+?patient tcga:gender 				"FEMALE".
+?patient dbpedia:country 			?country.
+?country dbpedia:populationDensity 		?popDen .
+?nytimesCountry owl:sameAs ?country ;
+nytimes:latest_use ?latestused;
+nytimes:number_of_variants ?totalVariants;
+nytimes:associated_article_count ?articleCount;
+owl:sameAs ?geonames.
+<http://data.semanticweb.org/person/christian-bizer> foaf:based_near ?geoname; 
+	 foaf:homepage ?homepage.  
+?director dbpedia:nationality ?dbpediaCountry.
+  <http://dbpedia.org/resource/The_Last_Valley> dbpedia:director  ?director .
+   ?x owl:sameAs <http://dbpedia.org/resource/The_Last_Valley> .
+  ?x linkedmdb:genre <http://data.linkedmdb.org/resource/film_genre/4> .
+?patient        tcga:bcr_drug_barcode 		?drugbcr.
+?drugbcr        tcga:drug_name 			"Cisplatin". 
+?drgBnkDrg     drugbank:inchiKey 		?inchiKey.
+?drgBnkDrg     drugbank:meltingPoint 		?meltingPoint.
+?drgBnkDrg     drugbank:chemicalStructure	?chemicalStructure.
+?drgBnkDrg     drugbank:casRegistryNumber       ?id .
+ ?keggDrug rdf:type kegg:Drug .
+   ?keggDrug bio2rdf:xRef ?id .
+   ?keggDrug purl:title "Follitropin alfa/beta" .
+}

@@ -1,0 +1,57 @@
+PREFIX tcga: <http://tcga.deri.ie/schema/>
+PREFIX kegg: <http://bio2rdf.org/ns/kegg#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#>
+PREFIX nytimes: <http://data.nytimes.com/elements/>
+PREFIX jamendo: <http://dbtune.org/jamendo/artist/8028>	
+PREFIX linkedmdb: <http://data.linkedmdb.org/resource/movie/>
+PREFIX purl: <http://purl.org/dc/elements/1.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX bio2rdf: <http://bio2rdf.org/ns/bio2rdf#>
+PREFIX chebi: <http://bio2rdf.org/ns/chebi#>
+prefix swc: <http://data.semanticweb.org/ns/swc/ontology#>
+prefix eswc: <http://data.semanticweb.org/conference/eswc/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT   *
+WHERE
+{
+?uri 	tcga:bcr_patient_barcode 		?patient .
+?patient tcga:gender 				?gender.
+?patient dbpedia:country 			?country.
+?country dbpedia:populationDensity 		?popDensity.
+?nytimesCountry owl:sameAs ?country ;
+nytimes:latest_use ?latestused;
+nytimes:number_of_variants ?totalVariants;
+nytimes:associated_article_count ?articleCount;
+owl:sameAs ?geonames.
+?role swc:isRoleAt  eswc:2010.
+?role swc:heldBy ?author.
+?author foaf:based_near ?geoname.
+?artist foaf:based_near ?geoname; 
+	 foaf:homepage ?homepage.  
+?director dbpedia:nationality ?dbpediaCountry.
+  ?film dbpedia:director  ?director .
+   ?x owl:sameAs ?film .
+  ?x linkedmdb:genre ?genre.
+?patient        tcga:bcr_drug_barcode 		?drugbcr.
+?drugbcr        tcga:drug_name 			?drugName. 
+?drgBnkDrg     drugbank:inchiKey 		?inchiKey.
+?drgBnkDrg     drugbank:meltingPoint 		?meltingPoint.
+?drgBnkDrg     drugbank:chemicalStructure	?chemicalStructure.
+?drgBnkDrg     drugbank:casRegistryNumber       ?id .
+ ?keggDrug rdf:type kegg:Drug .
+   ?keggDrug bio2rdf:xRef ?id .
+   ?keggDrug purl:title ?title .
+?chebiDrug purl:title ?drugName .
+?chebiDrug chebi:iupacName ?chebiIupacName .
+OPTIONAL { 
+?drgBnkDrg drugbank:inchiIdentifier ?drugbankInchi .
+?chebiDrug bio2rdf:inchi ?chebiInchi.
+FILTER (?drugbankInchi = ?chebiInchi) 
+}
+} 
+Limit 1

@@ -1,0 +1,7 @@
+java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.remove(ArrayList.java:496)
+	at org.aksw.simba.quetsal.core.error.RelativeError.remainingTPError(RelativeError.java:192)
+	at org.aksw.simba.start.QueryEvaluation.evaluate(QueryEvaluation.java:182)
+	at org.aksw.simba.start.QueryEvaluation.multyEvaluate(QueryEvaluation.java:222)
+	at org.aksw.simba.start.QueryEvaluation.main(QueryEvaluation.java:121)

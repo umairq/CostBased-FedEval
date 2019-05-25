@@ -1,0 +1,87 @@
+################################################################################
+# Sesame configuration for RDF federator.
+#
+# ATTENTION: the Sail implementing the sail:sailType must be published
+#            in META-INF/services/org.openrdf.sail.SailFactory
+################################################################################
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix rep:  <http://www.openrdf.org/config/repository#>.
+@prefix sr:   <http://www.openrdf.org/config/repository/sail#>.
+@prefix sail: <http://www.openrdf.org/config/sail#>.
+@prefix fed:  <http://west.uni-koblenz.de/config/federation/sail#>.
+@prefix west:  <http://lodse.west.uni-koblenz.de:8080/openrdf-sesame/repositories/>.
+
+[] a rep:Repository ;
+   rep:repositoryTitle "RDF Federator" ;
+   rep:repositoryID "RDFFederator" ;
+   rep:repositoryImpl [
+      rep:repositoryType "openrdf:SailRepository" ;
+      sr:sailImpl [
+         sail:sailType "west:FederationSail" ;
+
+         # source selection {ASK, INDEX, INDEX_ASK}
+         fed:sourceSelection [
+            fed:selectorType "ASK";
+            fed:useTypeStats false ;  # deprecated
+         ] ;
+
+         # optimizer settings {DYNAMIC_PROGRAMMING, PATTERN_HEURISTIC}
+         fed:queryOptimization [
+            fed:optimizerType "DYNAMIC_PROGRAMMING" ;
+
+            # cardinality estimation setting {VOID, VOID_PLUS, TRUE_CARD}            
+            fed:cardEstimator "VOID_PLUS" ;
+            
+            # sub query grouping
+            fed:groupBySource true ;
+            fed:groupBySameAs true ;
+            
+            # join operator implementation
+            fed:useBindJoin true ;
+            fed:useHashJoin true ;
+         ] ;
+
+      # sparql endpoints
+         fed:member [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data1.n3> ;
+            void:sparqlEndpoint src1:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data2.n3> ;
+            void:sparqlEndpoint src2:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data3.n3> ;
+             void:sparqlEndpoint src3:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data4.n3> ;
+            void:sparqlEndpoint src4:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data5.n3> ;
+            void:sparqlEndpoint src5:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data6.n3> ;
+            void:sparqlEndpoint src6:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data7.n3> ;
+            void:sparqlEndpoint src7:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data8.n3> ;
+            void:sparqlEndpoint src8:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data9.n3> ;
+            void:sparqlEndpoint src9:sparql
+         ], [
+            rep:repositoryType "west:VoidRepository" ;
+            fed:voidDescription <void/Bench2-SplendidInd-Data10.n3> ;
+            void:sparqlEndpoint src10:sparql
+         ]
+      ]
+   ] .

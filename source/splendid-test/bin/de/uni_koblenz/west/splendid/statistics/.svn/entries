@@ -1,0 +1,58 @@
+8
+
+dir
+192
+http://rdffederator.googlecode.com/svn/trunk/src/de/uni_koblenz/west/splendid/statistics
+http://rdffederator.googlecode.com/svn
+
+
+
+2011-11-17T14:07:51.893451Z
+173
+olaf.goerlitz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d23ae19b-2206-6962-c3d4-7c8097259e2e
+
+RDFStatistics.java
+file
+
+
+
+
+2013-02-18T16:43:19.633000Z
+d4505c1e59bb499fcb573dd4be5c40cc
+2011-11-17T14:07:51.893451Z
+173
+olaf.goerlitz
+
+VoidStatistics.java
+file
+
+
+
+
+2013-02-18T16:43:19.651000Z
+07b3fe71ded91c461bd8040ea5740250
+2011-11-17T14:07:51.893451Z
+173
+olaf.goerlitz
+
+model
+dir
+
+util
+dir
+

@@ -1,0 +1,16 @@
+org.eclipse.rdf4j.query.QueryEvaluationException: java.lang.NullPointerException
+	at org.eclipse.rdf4j.repository.sail.SailTupleQuery.evaluate(SailTupleQuery.java:64)
+	at org.aksw.simba.start.QueryEvaluation.evaluate(QueryEvaluation.java:171)
+	at org.aksw.simba.start.QueryEvaluation.multyEvaluate(QueryEvaluation.java:216)
+	at org.aksw.simba.start.QueryEvaluation.main(QueryEvaluation.java:123)
+Caused by: org.eclipse.rdf4j.sail.SailException: java.lang.NullPointerException
+	at com.fluidops.fedx.FedXConnection.evaluateInternal(FedXConnection.java:339)
+	at org.eclipse.rdf4j.sail.helpers.AbstractSailConnection.evaluate(AbstractSailConnection.java:267)
+	at org.eclipse.rdf4j.repository.sail.SailTupleQuery.evaluate(SailTupleQuery.java:54)
+	... 3 more
+Caused by: java.lang.NullPointerException
+	at org.aksw.simba.quetsal.core.TBSSSourceSelection.lookupFedSumClass(TBSSSourceSelection.java:487)
+	at org.aksw.simba.quetsal.core.TBSSSourceSelection.performSourceSelection(TBSSSourceSelection.java:161)
+	at com.fluidops.fedx.optimizer.Optimizer.optimize(Optimizer.java:87)
+	at com.fluidops.fedx.FedXConnection.evaluateInternal(FedXConnection.java:336)
+	... 5 more

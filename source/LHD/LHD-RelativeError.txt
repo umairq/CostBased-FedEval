@@ -1,0 +1,224 @@
+
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/text> "SELECT ?predicate ?object WHERE {{ <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object }UNION{ ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .?subject ?predicate ?object }}" .
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q1-plan> .
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q1-plan-join#1>  .
+<http://aksw.org/res/lhd-q1-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "77.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "0.8101978922922011"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q1-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q1-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "77.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.8101978922922011"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q1-plan-join#2>  .
+<http://aksw.org/res/lhd-q1-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q1-plan-join#2-tp1>  .
+<http://aksw.org/res/lhd-q1-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0014471601704725845"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q1-plan-join#3>  .
+<http://aksw.org/res/lhd-q1-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "13.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "1.0175251742835012"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q1-plan-join#4>  .
+<http://aksw.org/res/lhd-q1-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q1-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasSimilarity> "0.7808688094430303"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .?x <http://data.nytimes.com/elements/topicPage> ?page .?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#q2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q2-plan> .
+<http://aksw.org/res/lhd-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q2-plan-join#1>  .
+<http://aksw.org/res/lhd-q2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q2-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0014471601704725845"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q2-plan-join#1-tp2>  .
+<http://aksw.org/res/lhd-q2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.5608804395929757E-4"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q2-plan-join#2>  .
+<http://aksw.org/res/lhd-q2-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0175251742835012"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q2-plan-join#3>  .
+<http://aksw.org/res/lhd-q2-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q2-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q2-plan> <http://aksw.org/schema/hasSimilarity> "0.9349697366837759"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#q3> <http://aksw.org/schema/text> "SELECT ?president ?party ?page WHERE {?president <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/President> .?president <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/United_States> .?president <http://dbpedia.org/ontology/party> ?party .?x <http://data.nytimes.com/elements/topicPage> ?page .?x <http://www.w3.org/2002/07/owl#sameAs> ?president .}" .
+<http://aksw.org/res/query#q3> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q3-plan> .
+<http://aksw.org/res/lhd-q3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q3-plan-join#1>  .
+<http://aksw.org/res/lhd-q3-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "2105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q3-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q3-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "2105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.07661928760741464"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q3-plan-join#2>  .
+<http://aksw.org/res/lhd-q3-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "12.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q3-plan-join#2-tp1>  .
+<http://aksw.org/res/lhd-q3-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "8217.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1.427916928090594E-4"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q3-plan-join#3>  .
+<http://aksw.org/res/lhd-q3-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "1624.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q3-plan-join#3-tp1>  .
+<http://aksw.org/res/lhd-q3-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "8217.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1.427916928090594E-4"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q3-plan-join#4>  .
+<http://aksw.org/res/lhd-q3-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q3-plan-join#4-tp1>  .
+<http://aksw.org/res/lhd-q3-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q3-plan-join#5>  .
+<http://aksw.org/res/lhd-q3-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "251.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "1714.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q3-plan-join#6>  .
+<http://aksw.org/res/lhd-q3-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q3-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q3-plan> <http://aksw.org/schema/hasSimilarity> "0.018931258880661668"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#q4> <http://aksw.org/schema/text> "SELECT ?actor ?news WHERE {?film <http://purl.org/dc/terms/title> 'Tarzan' .?film <http://data.linkedmdb.org/resource/movie/actor> ?actor .?actor <http://www.w3.org/2002/07/owl#sameAs> ?x.?y <http://www.w3.org/2002/07/owl#sameAs> ?x .?y <http://data.nytimes.com/elements/topicPage> ?news}" .
+<http://aksw.org/res/query#q4> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q4-plan> .
+<http://aksw.org/res/lhd-q4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q4-plan-join#1>  .
+<http://aksw.org/res/lhd-q4-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q4-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q4-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4.366833853024134E-4"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q4-plan-join#2>  .
+<http://aksw.org/res/lhd-q4-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "11.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0952490597897"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q4-plan-join#3>  .
+<http://aksw.org/res/lhd-q4-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q4-plan-join#4>  .
+<http://aksw.org/res/lhd-q4-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q4-plan-join#5>  .
+<http://aksw.org/res/lhd-q4-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q4-plan-join#6>  .
+<http://aksw.org/res/lhd-q4-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q4-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q4-plan> <http://aksw.org/schema/hasSimilarity> "0.4893137542444982"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#q5> <http://aksw.org/schema/text> "SELECT ?film ?director ?genre WHERE {?film <http://dbpedia.org/ontology/director>  ?director .?director <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Italy> .?x <http://www.w3.org/2002/07/owl#sameAs> ?film .?x <http://data.linkedmdb.org/resource/movie/genre> ?genre .}" .
+<http://aksw.org/res/query#q5> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q5-plan> .
+<http://aksw.org/res/lhd-q5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q5-plan-join#1>  .
+<http://aksw.org/res/lhd-q5-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "406.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q5-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q5-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "406.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1.427916928090594E-4"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q5-plan-join#2>  .
+<http://aksw.org/res/lhd-q5-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "13018.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q5-plan-join#2-tp1>  .
+<http://aksw.org/res/lhd-q5-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "13018.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "13018.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q5-plan-join#3>  .
+<http://aksw.org/res/lhd-q5-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "6.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "28.568367346938775"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q5-plan-join#4>  .
+<http://aksw.org/res/lhd-q5-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "84.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q5-plan-join#5>  .
+<http://aksw.org/res/lhd-q5-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q5-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q5-plan> <http://aksw.org/schema/hasSimilarity> "1.0915609342262467E-4"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#q6> <http://aksw.org/schema/text> "SELECT $drug $melt WHERE {{ $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint> $melt. }UNION{ $drug <http://dbpedia.org/ontology/Drug/meltingPoint> $melt . }}" .
+<http://aksw.org/res/query#q6> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q6-plan> .
+<http://aksw.org/res/lhd-q6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q6-plan-join#1>  .
+<http://aksw.org/res/lhd-q6-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q6-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q6-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q6-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q6-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q6-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q6-plan-join#2>  .
+<http://aksw.org/res/lhd-q6-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q6-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q6-plan-join#3>  .
+<http://aksw.org/res/lhd-q6-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q6-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q6-plan> <http://aksw.org/schema/hasSimilarity> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#q7> <http://aksw.org/schema/text> "SELECT ?predicate ?object WHERE {{ <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> ?predicate ?object . }UNION{ <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> <http://www.w3.org/2002/07/owl#sameAs> ?caff .?caff ?predicate ?object . }}" .
+<http://aksw.org/res/query#q7> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q7-plan> .
+<http://aksw.org/res/lhd-q7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q7-plan-join#1>  .
+<http://aksw.org/res/lhd-q7-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "319.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "0.8101978922922011"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q7-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q7-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "319.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.8101978922922011"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q7-plan-join#2>  .
+<http://aksw.org/res/lhd-q7-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q7-plan-join#2-tp1>  .
+<http://aksw.org/res/lhd-q7-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0014471601704725845"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q7-plan-join#3>  .
+<http://aksw.org/res/lhd-q7-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "6.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "1.2659751037344398"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q7-plan-join#4>  .
+<http://aksw.org/res/lhd-q7-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q7-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "11.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q7-plan> <http://aksw.org/schema/hasSimilarity> "0.7682212795973759"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#q8> <http://aksw.org/schema/text> "SELECT $drug $melt WHERE {{ $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint> $melt. }UNION{ $drug <http://dbpedia.org/ontology/Drug/meltingPoint> $melt . }}" .
+<http://aksw.org/res/query#q8> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q8-plan> .
+<http://aksw.org/res/lhd-q8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q8-plan-join#1>  .
+<http://aksw.org/res/lhd-q8-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q8-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q8-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/lhd-q8-plan-join#1-tp1>  .
+<http://aksw.org/res/lhd-q8-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q8-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q8-plan-join#2>  .
+<http://aksw.org/res/lhd-q8-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q8-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/lhd-q8-plan-join#3>  .
+<http://aksw.org/res/lhd-q8-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/lhd-q8-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/lhd-q8-plan> <http://aksw.org/schema/hasSimilarity> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q1-plan> .
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q1-plan> .
+
+
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasSimilarity> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q1-plan> .
+
+
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasSimilarity> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q1-plan> .
+
+
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasSimilarity> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+<http://aksw.org/res/query#q1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/lhd-q1-plan> .
+
+
+<http://aksw.org/res/lhd-q1-plan> <http://aksw.org/schema/hasSimilarity> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+

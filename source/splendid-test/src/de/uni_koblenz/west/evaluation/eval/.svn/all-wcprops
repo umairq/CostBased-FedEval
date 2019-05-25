@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/188/trunk/eval
+END
+source-selection_stats_pred_rdfType.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/161/trunk/eval/source-selection_stats_pred_rdfType.properties
+END
+run_source-selection_evaluation.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/164/trunk/eval/run_source-selection_evaluation.sh
+END
+source-selection_stats_pred.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/161/trunk/eval/source-selection_stats_pred.properties
+END
+federation-test.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/164/trunk/eval/federation-test.properties
+END
+source-selection_ask_sameAs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/161/trunk/eval/source-selection_ask_sameAs.properties
+END
+run_federation-test.bat
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/182/trunk/eval/run_federation-test.bat
+END
+source-selection_stats_pred_rdfType_sameAs.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/161/trunk/eval/source-selection_stats_pred_rdfType_sameAs.properties
+END
+source-selection_ask.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/161/trunk/eval/source-selection_ask.properties
+END
+run_federation-test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/182/trunk/eval/run_federation-test.sh
+END

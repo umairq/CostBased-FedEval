@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/arq-2.8.7.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/icu4j-3.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/iri-0.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/jena-2.6.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/jena-2.6.4-tests.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/junit-4.5.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/lucene-core-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/wstx-asl-3.2.9.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/LHD/lib/xercesImpl-2.7.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

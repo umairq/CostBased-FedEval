@@ -1,0 +1,52 @@
+8
+
+dir
+192
+http://rdffederator.googlecode.com/svn/trunk/src/de/uni_koblenz/west/splendid/tools
+http://rdffederator.googlecode.com/svn
+
+
+
+2011-12-13T22:59:31.870529Z
+192
+olaf.goerlitz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d23ae19b-2206-6962-c3d4-7c8097259e2e
+
+NQuadSourceAggregator.java
+file
+
+
+
+
+2013-02-18T16:43:19.966000Z
+d73a3ca0391363f3fb8fa3196c476b6f
+2011-12-13T22:59:31.870529Z
+192
+olaf.goerlitz
+
+NXVoidGenerator.java
+file
+
+
+
+
+2013-02-18T16:43:19.979000Z
+fd31aacf616b20a217764e6c76b2a69a
+2011-12-13T22:59:31.870529Z
+192
+olaf.goerlitz
+

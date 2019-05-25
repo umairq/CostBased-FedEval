@@ -1,0 +1,29 @@
+PREFIX swc: <http://data.semanticweb.org/ns/swc/ontology#>
+PREFIX swrc: <http://swrc.ontoware.org/ontology#>
+PREFIX eswc: <http://data.semanticweb.org/conference/eswc/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX nytimes: <http://data.nytimes.com/elements/>
+PREFIX jamendo: <http://dbtune.org/jamendo/artist/8028>	
+PREFIX linkedmdb: <http://data.linkedmdb.org/resource/movie/>
+SELECT DISTINCT *
+WHERE 
+{
+?role swc:isRoleAt  eswc:2010.
+?role swc:heldBy ?author.
+?author foaf:based_near ?geoname.
+?geoname geo:long ?longitude.
+?dbpediaCountry owl:sameAs ?geoname ;
+nytimes:latest_use ?dateused;
+owl:sameAs ?geoname.
+?artist foaf:based_near ?geoname;
+	 foaf:homepage <http://people.csail.mit.edu/lkagal/>.  
+?director dbpedia:nationality ?geoname.
+ ?film dbpedia:director  ?director .
+  ?mdbFilm owl:sameAs ?film .
+   ?mdbFilm linkedmdb:genre ?genre.
+FILTER REGEX (?geoname, "United")
+} 

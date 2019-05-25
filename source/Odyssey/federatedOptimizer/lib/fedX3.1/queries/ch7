@@ -1,0 +1,41 @@
+PREFIX tcga: <http://tcga.deri.ie/schema/>
+PREFIX kegg: <http://bio2rdf.org/ns/kegg#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#>
+PREFIX nytimes: <http://data.nytimes.com/elements/>
+PREFIX jamendo: <http://dbtune.org/jamendo/artist/8028>	
+PREFIX linkedmdb: <http://data.linkedmdb.org/resource/movie/>
+PREFIX purl: <http://purl.org/dc/elements/1.1/>
+PREFIX bio2rdf: <http://bio2rdf.org/ns/bio2rdf#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX chebi: <http://bio2rdf.org/ns/chebi#>
+SELECT  DISTINCT *
+WHERE
+{
+?uri 	tcga:bcr_patient_barcode 	 ?patient .
+?patient tcga:consent_or_death_status    ?deathStatus . 
+?patient dbpedia:country 	         ?country.
+?country dbpedia:areaMetro 		 ?areaMetro.
+?nytimesCountry owl:sameAs ?country ;
+nytimes:search_api_query ?apiQuery;
+owl:sameAs ?location .
+?artist foaf:based_near ?location; 
+	foaf:firstName ?firstName . 
+?director dbpedia:spouse ?spouse.
+  ?film dbpedia:director  ?director .
+   ?x owl:sameAs ?film .
+  ?x linkedmdb:runtime ?runTime.
+?patient        tcga:bcr_drug_barcode 		?drugbcr.
+?drugbcr        tcga:drug_name 			?drugName. 
+?drgBnkDrg     drugbank:casRegistryNumber       ?id .
+?drgBnkDrg     drugbank:brandName		?brandName.
+   ?keggDrug bio2rdf:xRef ?id .
+   ?keggDrug bio2rdf:mass ?mass . 
+   ?keggDrug bio2rdf:synonym ?synonym .
+?chebiDrug purl:title ?drugName .
+} 
+Limit 775

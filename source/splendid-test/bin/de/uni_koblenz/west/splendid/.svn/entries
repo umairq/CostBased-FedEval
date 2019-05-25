@@ -1,0 +1,124 @@
+8
+
+dir
+192
+http://rdffederator.googlecode.com/svn/trunk/src/de/uni_koblenz/west/splendid
+http://rdffederator.googlecode.com/svn
+
+
+
+2011-12-13T22:59:31.870529Z
+192
+olaf.goerlitz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d23ae19b-2206-6962-c3d4-7c8097259e2e
+
+FederationSail.java
+file
+
+
+
+
+2013-02-18T16:43:21.757000Z
+dbb047ba0c5b56c8ae9206f0d6db97a4
+2011-12-09T09:24:44.030050Z
+190
+olaf.goerlitz
+
+FederationSailConnection.java
+file
+
+
+
+
+2013-02-18T16:43:19.335000Z
+52845fbd5d43c005c7936a048bbc03c7
+2011-11-17T14:07:51.893451Z
+173
+olaf.goerlitz
+
+SPLENDID.java
+file
+
+
+
+
+2013-02-18T16:43:18.992000Z
+14a1549973cce894bb5cc8bf542f159e
+2011-11-18T17:02:39.948110Z
+183
+olaf.goerlitz
+
+VoidRepository.java
+file
+
+
+
+
+2013-02-18T16:43:18.976000Z
+a01b1271f94375fbea39696b54061ea0
+2011-11-17T14:07:51.893451Z
+173
+olaf.goerlitz
+
+VoidRepositoryConnection.java
+file
+
+
+
+
+2013-02-18T16:43:20.279000Z
+41f4d9f1d75bedc3d63e7e3fc36e3080
+2011-12-09T09:24:44.030050Z
+190
+olaf.goerlitz
+
+config
+dir
+
+estimation
+dir
+
+evaluation
+dir
+
+helpers
+dir
+
+index
+dir
+
+model
+dir
+
+optimizer
+dir
+
+sources
+dir
+
+statistics
+dir
+
+test
+dir
+
+tools
+dir
+
+vocabulary
+dir
+

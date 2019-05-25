@@ -1,0 +1,35 @@
+PREFIX tcga: <http://tcga.deri.ie/schema/>
+PREFIX kegg: <http://bio2rdf.org/ns/kegg#>
+PREFIX dbpedia: <http://dbpedia.org/ontology/>
+PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX geonames: <http://www.geonames.org/ontology#>
+PREFIX nytimes: <http://data.nytimes.com/elements/>
+PREFIX jamendo: <http://dbtune.org/jamendo/artist/8028>	
+PREFIX linkedmdb: <http://data.linkedmdb.org/resource/movie/>
+SELECT  DISTINCT *
+WHERE
+{
+?uri 	tcga:bcr_patient_barcode 		?patient .
+?patient ?p			?country.
+?country dbpedia:populationDensity 		32 .
+?nytimesCountry owl:sameAs ?country ;
+nytimes:latest_use ?dateused;
+owl:sameAs ?geonames.
+?artist foaf:based_near ?geoname; 
+	 foaf:homepage ?homepage.  
+?director dbpedia:nationality ?dbpediaCountry.
+  ?film dbpedia:director  <http://dbpedia.org/resource/Michael_Haussman> .
+   ?x owl:sameAs ?film .
+  ?x linkedmdb:genre ?genre.
+?patient        tcga:bcr_drug_barcode 		?drugbcr.
+?drugbcr        tcga:drug_name 			?drugName. 
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>     drugbank:genericName 		?drugName.
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>    drugbank:indication 		?indication.
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>    drugbank:chemicalFormula	?formula.
+<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>	drugbank:keggCompoundId 	?compound .
+} 
+LIMIT 5

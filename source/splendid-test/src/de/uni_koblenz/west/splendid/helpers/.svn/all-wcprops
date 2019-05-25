@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers
+END
+AnnotatingTreePrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/AnnotatingTreePrinter.java
+END
+FilterConditionCollector.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/FilterConditionCollector.java
+END
+ReadOnlyRepositoryConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/ReadOnlyRepositoryConnection.java
+END
+Format.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/Format.java
+END
+ReadOnlySailConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/ReadOnlySailConnection.java
+END
+OperatorTreePrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/OperatorTreePrinter.java
+END
+QueryExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/QueryExecutor.java
+END
+SparqlPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/helpers/SparqlPrinter.java
+END

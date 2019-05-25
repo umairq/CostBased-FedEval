@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/183/trunk/src/de/uni_koblenz/west/splendid/optimizer
+END
+DynamicProgrammingOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/183/trunk/src/de/uni_koblenz/west/splendid/optimizer/DynamicProgrammingOptimizer.java
+END
+AbstractFederationOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/optimizer/AbstractFederationOptimizer.java
+END
+PatternSelectivityOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/optimizer/PatternSelectivityOptimizer.java
+END

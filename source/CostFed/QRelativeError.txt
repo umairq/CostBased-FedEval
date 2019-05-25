@@ -1,0 +1,338 @@
+
+====================================
+
+Query=q1
+
+====================================
+Cardinality Data:
+
+ Branch:StatementSourcePattern
+   Var (name=subject)
+   Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+   Var (name=_const_3dc39fb8_uri, value=http://dbpedia.org/resource/Barack_Obama, anonymous)
+   StatementSource (id=sparql_163.180.116.90:8892_sparql, type=REMOTE)
+   StatementSource (id=sparql_163.180.116.90:8893_sparql, type=REMOTE)
+   StatementSource (id=sparql_163.180.116.90:8896_sparql, type=REMOTE)
+   StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+
+Real Cardinality: 1
+Estimated Cardinality: 4
+Relative Error: 3.0
+-------------------
+
+ Branch:StatementSourcePattern
+   Var (name=subject)
+   Var (name=predicate)
+   Var (name=object)
+   StatementSource (id=sparql_163.180.116.90:8892_sparql, type=REMOTE)
+   StatementSource (id=sparql_163.180.116.90:8893_sparql, type=REMOTE)
+   StatementSource (id=sparql_163.180.116.90:8896_sparql, type=REMOTE)
+   StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+
+Real Cardinality: 114973310
+Estimated Cardinality: 114961382
+Relative Error: -1.0374581E-4
+-------------------
+
+-------------------
+Bind Join Real Cardinality: 13
+Join Estimated: 2
+Join Relative Error: -0.84615386
+-------------------
+
+====================================
+
+Query=q2
+
+====================================
+Cardinality Data:
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=x)
+      Var (name=_const_64955ef9_uri, value=http://data.nytimes.com/elements/topicPage, anonymous)
+      Var (name=page)
+      StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=x)
+      Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+      Var (name=_const_3dc39fb8_uri, value=http://dbpedia.org/resource/Barack_Obama, anonymous)
+      StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+
+Real Cardinality: 1
+Estimated Cardinality: 0
+Relative Error: -1.0
+-------------------
+
+ Branch:ExclusiveStatement
+   Var (name=_const_3dc39fb8_uri, value=http://dbpedia.org/resource/Barack_Obama, anonymous)
+   Var (name=_const_570bc5a8_uri, value=http://dbpedia.org/ontology/party, anonymous)
+   Var (name=party)
+   StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+
+Real Cardinality: 1
+Estimated Cardinality: 1
+Relative Error: 0.0
+-------------------
+
+-------------------
+Bind Join Real Cardinality: 1
+Join Estimated: 0
+Join Relative Error: -1.0
+-------------------
+
+====================================
+
+Query=q3
+
+====================================
+Cardinality Data:
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=president)
+      Var (name=_const_f5e5585a_uri, value=http://www.w3.org/1999/02/22-rdf-syntax-ns#type, anonymous)
+      Var (name=_const_662e7762_uri, value=http://dbpedia.org/ontology/President, anonymous)
+      StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=president)
+      Var (name=_const_bdcdcefe_uri, value=http://dbpedia.org/ontology/nationality, anonymous)
+      Var (name=_const_d10a1ddf_uri, value=http://dbpedia.org/resource/United_States, anonymous)
+      StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=president)
+      Var (name=_const_570bc5a8_uri, value=http://dbpedia.org/ontology/party, anonymous)
+      Var (name=party)
+      StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+
+Real Cardinality: 10
+Estimated Cardinality: 1117
+Relative Error: 110.7
+-------------------
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=x)
+      Var (name=_const_64955ef9_uri, value=http://data.nytimes.com/elements/topicPage, anonymous)
+      Var (name=page)
+      StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=x)
+      Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+      Var (name=president)
+      StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+   LocalVars (x)
+
+Real Cardinality: 21236
+Estimated Cardinality: 21143
+Relative Error: -0.004379356
+-------------------
+
+-------------------
+Hash Join Real Cardinality: 2
+Join Estimated: 1117
+Join Relative Error: 557.5
+-------------------
+
+====================================
+
+Query=q4
+
+====================================
+Cardinality Data:
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=film)
+      Var (name=_const_dbb1cdc8_uri, value=http://purl.org/dc/terms/title, anonymous)
+      Var (name=_const_94e3a482_lit_e2eec718_0, value="Tarzan", anonymous)
+      StatementSource (id=sparql_163.180.116.90:8896_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=film)
+      Var (name=_const_8caa480e_uri, value=http://data.linkedmdb.org/resource/movie/actor, anonymous)
+      Var (name=actor)
+      StatementSource (id=sparql_163.180.116.90:8896_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=actor)
+      Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+      Var (name=x)
+      StatementSource (id=sparql_163.180.116.90:8896_sparql, type=REMOTE)
+
+Real Cardinality: 2
+Estimated Cardinality: 0
+Relative Error: -1.0
+-------------------
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=y)
+      Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+      Var (name=x)
+      StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=y)
+      Var (name=_const_64955ef9_uri, value=http://data.nytimes.com/elements/topicPage, anonymous)
+      Var (name=news)
+      StatementSource (id=sparql_163.180.116.90:8897_sparql, type=REMOTE)
+
+Real Cardinality: 21236
+Estimated Cardinality: 21143
+Relative Error: -0.004379356
+-------------------
+
+-------------------
+Bind Join Real Cardinality: 1
+Join Estimated: 0
+Join Relative Error: -1.0
+-------------------
+
+====================================
+
+Query=q5
+
+====================================
+Cardinality Data:
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=film)
+      Var (name=_const_6ab6998a_uri, value=http://dbpedia.org/ontology/director, anonymous)
+      Var (name=director)
+      StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=director)
+      Var (name=_const_bdcdcefe_uri, value=http://dbpedia.org/ontology/nationality, anonymous)
+      Var (name=_const_221c02c4_uri, value=http://dbpedia.org/resource/Italy, anonymous)
+      StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+
+Real Cardinality: 6
+Estimated Cardinality: 847
+Relative Error: 140.16667
+-------------------
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=x)
+      Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+      Var (name=film)
+      StatementSource (id=sparql_163.180.116.90:8896_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=x)
+      Var (name=_const_8cffa79c_uri, value=http://data.linkedmdb.org/resource/movie/genre, anonymous)
+      Var (name=genre)
+      StatementSource (id=sparql_163.180.116.90:8896_sparql, type=REMOTE)
+
+Real Cardinality: 13430
+Estimated Cardinality: 32432
+Relative Error: 1.4148921
+-------------------
+
+-------------------
+Bind Join Real Cardinality: 2
+Join Estimated: 847
+Join Relative Error: 422.5
+-------------------
+
+====================================
+
+Query=q6
+
+====================================
+Cardinality Data:
+
+====================================
+
+Query=q7
+
+====================================
+Cardinality Data:
+
+ Branch:ExclusiveStatement
+   Var (name=_const_cdb5e816_uri, value=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201, anonymous)
+   Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+   Var (name=caff)
+   StatementSource (id=sparql_163.180.116.90:8892_sparql, type=REMOTE)
+
+Real Cardinality: 9
+Estimated Cardinality: 6
+Relative Error: -0.33333334
+-------------------
+
+ Branch:ExclusiveStatement
+   Var (name=caff)
+   Var (name=predicate)
+   Var (name=object)
+   StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+
+Real Cardinality: 42855361
+Estimated Cardinality: 42852379
+Relative Error: -6.9536225E-5
+-------------------
+
+-------------------
+Bind Join Real Cardinality: 14
+Join Estimated: 4
+Join Relative Error: -0.71428573
+-------------------
+
+====================================
+
+Query=q8
+
+====================================
+Cardinality Data:
+
+ Branch:ExclusiveStatement
+   Var (name=Drug)
+   Var (name=_const_f5e5585a_uri, value=http://www.w3.org/1999/02/22-rdf-syntax-ns#type, anonymous)
+   Var (name=_const_44cb98be_uri, value=http://dbpedia.org/ontology/Drug, anonymous)
+   StatementSource (id=sparql_163.180.116.90:8891_sparql, type=REMOTE)
+
+Real Cardinality: 4348
+Estimated Cardinality: 4348
+Relative Error: 0.0
+-------------------
+
+ Branch:ExclusiveGroup
+   ExclusiveStatement
+      Var (name=y)
+      Var (name=_const_9f24f144_uri, value=http://www.w3.org/2002/07/owl#sameAs, anonymous)
+      Var (name=Drug)
+      StatementSource (id=sparql_163.180.116.90:8892_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=Int)
+      Var (name=_const_f7ea054f_uri, value=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug1, anonymous)
+      Var (name=y)
+      StatementSource (id=sparql_163.180.116.90:8892_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=Int)
+      Var (name=_const_f7ea0550_uri, value=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug2, anonymous)
+      Var (name=IntDrug)
+      StatementSource (id=sparql_163.180.116.90:8892_sparql, type=REMOTE)
+   ExclusiveStatement
+      Var (name=Int)
+      Var (name=_const_32f350dd_uri, value=http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/text, anonymous)
+      Var (name=IntEffect)
+      StatementSource (id=sparql_163.180.116.90:8892_sparql, type=REMOTE)
+   LocalVars (y, Int)
+
+Real Cardinality: 71019
+Estimated Cardinality: 10122
+Relative Error: -0.85747474
+-------------------
+
+-------------------
+Hash Join Real Cardinality: 9054
+Join Estimated: 3087
+Join Relative Error: -0.6590457
+-------------------
+
+
+q1,90,1,1
+q2,1,2,2
+q3,2,2,2
+q4,1,2,2
+q5,2,2,2
+q6,1159,1,1
+q7,333,3,3
+q8,9054,2,2

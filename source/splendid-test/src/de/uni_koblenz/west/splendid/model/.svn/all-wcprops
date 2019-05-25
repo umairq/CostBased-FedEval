@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/model
+END
+SubQueryBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/model/SubQueryBuilder.java
+END
+BindJoin.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/model/BindJoin.java
+END
+HashJoin.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/model/HashJoin.java
+END
+BasicGraphPatternExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/model/BasicGraphPatternExtractor.java
+END
+RemoteQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/model/RemoteQuery.java
+END
+MappedStatementPattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/model/MappedStatementPattern.java
+END

@@ -1,0 +1,136 @@
+1:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-california-berkeley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-california-berkeley> ?prop ?val   } 
+Total Number of Records: 40
+: Query execution time (msec):129
+2:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/chemnitz-university-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/chemnitz-university-of-technology> ?prop ?val   } 
+Total Number of Records: 9
+: Query execution time (msec):9
+3:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://wit.istc.cnr.it/eswc-stc/workshops-calendar.rdf#0d6f967a-dae7-3620-b29b-a526517b8303_7> ?property ?value } 
+Total Number of Records: 14
+: Query execution time (msec):8
+4:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/jose-mora> ?property ?value } 
+Total Number of Records: 6
+: Query execution time (msec):7
+5:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/paper/84> ?property ?value } 
+Total Number of Records: 21
+: Query execution time (msec):8
+6:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/best-buy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/best-buy> ?prop ?val   } 
+Total Number of Records: 5
+: Query execution time (msec):7
+7:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/andrea-rodriguez> ?property ?value } 
+Total Number of Records: 9
+: Query execution time (msec):8
+8:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/pierre-nugues> ?property ?value } 
+Total Number of Records: 7
+: Query execution time (msec):7
+9:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/proceedings-1/paper-15/author_list> ?property ?value } 
+Total Number of Records: 3
+: Query execution time (msec):8
+10:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/ontotext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/ontotext> ?prop ?val   } 
+Total Number of Records: 21
+: Query execution time (msec):12
+11:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/hp-labs-bristol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/hp-labs-bristol> ?prop ?val   } 
+Total Number of Records: 9
+: Query execution time (msec):8
+12:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/michigan-state-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/michigan-state-university> ?prop ?val   } 
+Total Number of Records: 8
+: Query execution time (msec):7
+13:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/lrec/2008/proceedings> ?property ?value } 
+Total Number of Records: 623
+: Query execution time (msec):98
+14:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://www.ida.liu.se/~janma/> ?property ?value } 
+Total Number of Records: 1
+: Query execution time (msec):10
+15:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2013/poster-demo-proceedings/paper-17> ?property ?value } 
+Total Number of Records: 18
+: Query execution time (msec):14
+16:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2012/industry-proceedings/paper-03> ?property ?value } 
+Total Number of Records: 14
+: Query execution time (msec):14
+17:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/eswc/2006/talks/paper-presentation-ontology-evaluation-garcia-castro> ?property ?value } 
+Total Number of Records: 3
+: Query execution time (msec):10
+18:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-bremen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-bremen> ?prop ?val   } 
+Total Number of Records: 24
+: Query execution time (msec):12
+19:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-tsukuba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-tsukuba> ?prop ?val   } 
+Total Number of Records: 17
+: Query execution time (msec):10
+20:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/universidade-nova-de-lisboa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/universidade-nova-de-lisboa> ?prop ?val   } 
+Total Number of Records: 84
+: Query execution time (msec):124
+21:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/national-and-kapodistrian-university-of-athens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/national-and-kapodistrian-university-of-athens> ?prop ?val   } 
+Total Number of Records: 104
+: Query execution time (msec):42
+22:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/massachusetts-institute-of-technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/massachusetts-institute-of-technology> ?prop ?val   } 
+Total Number of Records: 31
+: Query execution time (msec):20
+23:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/david-camacho> ?property ?value } 
+Total Number of Records: 10
+: Query execution time (msec):7
+24:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/inria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/inria> ?prop ?val   } 
+Total Number of Records: 38
+: Query execution time (msec):13
+25:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-texas-at-el-paso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-texas-at-el-paso> ?prop ?val   } 
+Total Number of Records: 32
+: Query execution time (msec):22
+26:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/oak-ridge-national-laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/oak-ridge-national-laboratory> ?prop ?val   } 
+Total Number of Records: 9
+: Query execution time (msec):17
+27:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/rutgers-university> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/rutgers-university> ?prop ?val   } 
+Total Number of Records: 19
+: Query execution time (msec):12
+28:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/university-of-toronto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/university-of-toronto> ?prop ?val   } 
+Total Number of Records: 35
+: Query execution time (msec):41
+29:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/person/gareth-jones> ?property ?value } 
+Total Number of Records: 9
+: Query execution time (msec):20
+30:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/jacobs-university-bremen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/jacobs-university-bremen> ?prop ?val   } 
+Total Number of Records: 11
+: Query execution time (msec):6
+31:-------------------------------------
+ SELECT  ?type ?prop ?val WHERE   { <http://data.semanticweb.org/organization/hasso-plattner-institute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .     <http://data.semanticweb.org/organization/hasso-plattner-institute> ?prop ?val   } 
+Total Number of Records: 15
+: Query execution time (msec):7
+32:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2010/paper/442/authorlist> ?property ?value } 
+Total Number of Records: 4
+: Query execution time (msec):7
+33:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/iswc/2004/poster-proceedings/paper-04> ?property ?value } 
+Total Number of Records: 15
+: Query execution time (msec):7
+34:-------------------------------------
+ SELECT  ?property ?value WHERE   { <http://data.semanticweb.org/conference/www/2012/paper/955/talk/speaker> ?property ?value } 
+Total Number of Records: 8
+: Query execution time (msec):18

@@ -1,0 +1,691 @@
+
+<http://aksw.org/res/query#S1> <http://aksw.org/schema/text> "SELECT ?predicate ?object WHERE {   { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object }   UNION       { ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .     ?subject ?predicate ?object } }" .
+<http://aksw.org/res/query#S1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S1-plan> .
+<http://aksw.org/res/CostFed-S1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S1-plan-join#1>  .
+<http://aksw.org/res/CostFed-S1-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "13.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S1-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S1-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S1-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S1-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S1-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S1-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.1497331E8"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S1-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1.14961382E8"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S1-plan> <http://aksw.org/schema/hasSimilarity> "0.9999999999999951"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+
+<http://aksw.org/res/query#S2> <http://aksw.org/schema/text> "SELECT ?party ?page  WHERE {   <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .}" .
+<http://aksw.org/res/query#S2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S2-plan> .
+<http://aksw.org/res/CostFed-S2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S2-plan-join#1>  .
+<http://aksw.org/res/CostFed-S2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S2-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S2-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S2-plan> <http://aksw.org/schema/hasSimilarity> "0.5773502691896258"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+
+<http://aksw.org/res/query#S3> <http://aksw.org/schema/text> "SELECT ?president ?party ?page WHERE {   ?president <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/President> .   ?president <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/United_States> .   ?president <http://dbpedia.org/ontology/party> ?party .   ?x <http://data.nytimes.com/elements/topicPage> ?page .   ?x <http://www.w3.org/2002/07/owl#sameAs> ?president .}" .
+<http://aksw.org/res/query#S3> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S3-plan> .
+<http://aksw.org/res/CostFed-S3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S3-plan-join#1>  .
+<http://aksw.org/res/CostFed-S3-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S3-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1117.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S3-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S3-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S3-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "10.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S3-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1117.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S3-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S3-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S3-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S3-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "21143.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S3-plan> <http://aksw.org/schema/hasSimilarity> "0.997250201254581"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+
+
+<http://aksw.org/res/query#S4> <http://aksw.org/schema/text> "SELECT ?actor ?news WHERE {   ?film <http://purl.org/dc/terms/title> 'Tarzan' .   ?film <http://data.linkedmdb.org/resource/movie/actor> ?actor .   ?actor <http://www.w3.org/2002/07/owl#sameAs> ?x.   ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .   ?y <http://data.nytimes.com/elements/topicPage> ?news}" .
+<http://aksw.org/res/query#S4> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S4-plan> .
+<http://aksw.org/res/CostFed-S4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S4-plan-join#1>  .
+<http://aksw.org/res/CostFed-S4-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S4-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S4-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S4-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S4-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S4-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S4-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S4-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S4-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S4-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "21143.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S4-plan> <http://aksw.org/schema/hasSimilarity> "0.9999999944563657"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S5> <http://aksw.org/schema/text> "SELECT ?film ?director ?genre WHERE {   ?film <http://dbpedia.org/ontology/director>  ?director .   ?director <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Italy> .   ?x <http://www.w3.org/2002/07/owl#sameAs> ?film .   ?x <http://data.linkedmdb.org/resource/movie/genre> ?genre .}" .
+<http://aksw.org/res/query#S5> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S5-plan> .
+<http://aksw.org/res/CostFed-S5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S5-plan-join#1>  .
+<http://aksw.org/res/CostFed-S5-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S5-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "847.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S5-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S5-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S5-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "13430.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S5-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "32432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S5-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S5-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S5-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "6.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S5-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "847.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S5-plan> <http://aksw.org/schema/hasSimilarity> "0.9993340775763683"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S6> <http://aksw.org/schema/text> "SELECT ?name ?location ?news WHERE {   ?artist <http://xmlns.com/foaf/0.1/name> ?name .   ?artist <http://xmlns.com/foaf/0.1/based_near> ?location .   ?location <http://www.geonames.org/ontology#parentFeature> ?germany .    ?germany <http://www.geonames.org/ontology#name> 'Federal Republic of Germany'}" .
+<http://aksw.org/res/query#S6> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S6-plan> .
+<http://aksw.org/res/CostFed-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S6-plan-join#1>  .
+<http://aksw.org/res/CostFed-S6-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "528.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "528.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S6-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S6-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "5557.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "5557.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S6-plan-join#2>  .
+<http://aksw.org/res/CostFed-S6-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "578.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "578.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S6-plan-join#2-tp2>  .
+<http://aksw.org/res/CostFed-S6-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "9366.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "9366.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S6-plan-join#3>  .
+<http://aksw.org/res/CostFed-S6-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "1216.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "70.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S6-plan-join#3-tp1>  .
+<http://aksw.org/res/CostFed-S6-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "7481493.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7481493.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S6-plan-join#3-tp4>  .
+<http://aksw.org/res/CostFed-S6-plan-join#3-tp4> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S6-plan-join#3-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S6-plan> <http://aksw.org/schema/hasSimilarity> "0.9999999827935799"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S7> <http://aksw.org/schema/text> "SELECT ?location ?news WHERE {   ?location <http://www.geonames.org/ontology#parentFeature> ?parent .    ?parent <http://www.geonames.org/ontology#name> 'California' .   ?y <http://www.w3.org/2002/07/owl#sameAs> ?location .   ?y <http://data.nytimes.com/elements/topicPage> ?news }" .
+<http://aksw.org/res/query#S7> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S7-plan> .
+<http://aksw.org/res/CostFed-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S7-plan-join#1>  .
+<http://aksw.org/res/CostFed-S7-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "514.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "70.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S7-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S7-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "113.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S7-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S7-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "7481493.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7481493.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S7-plan-join#2>  .
+<http://aksw.org/res/CostFed-S7-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "70.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S7-plan-join#2-tp3>  .
+<http://aksw.org/res/CostFed-S7-plan-join#2-tp3> <http://aksw.org/schema/hasActualCardinality> "21143.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S7-plan-join#2-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "21143.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S7-plan> <http://aksw.org/schema/hasSimilarity> "0.999996004859943"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S8> <http://aksw.org/schema/text> "SELECT $drug $melt WHERE {    { $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint> $melt. }    UNION    { $drug <http://dbpedia.org/ontology/Drug/meltingPoint> $melt . }}" .
+
+
+<http://aksw.org/res/CostFed-S8-plan> <http://aksw.org/schema/hasSimilarity> "NaN"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S9> <http://aksw.org/schema/text> "SELECT ?predicate ?object WHERE {    { <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> ?predicate ?object . }    UNION        { <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> <http://www.w3.org/2002/07/owl#sameAs> ?caff .      ?caff ?predicate ?object . } }" .
+<http://aksw.org/res/query#S9> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S9-plan> .
+<http://aksw.org/res/CostFed-S9-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S9-plan-join#1>  .
+<http://aksw.org/res/CostFed-S9-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "14.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S9-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S9-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S9-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S9-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S9-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "6.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S9-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S9-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S9-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "4.2964708E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S9-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "4.2958744E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S9-plan> <http://aksw.org/schema/hasSimilarity> "0.9999999999999705"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S10> <http://aksw.org/schema/text> "SELECT ?Drug ?IntDrug ?IntEffect WHERE {    ?Drug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Drug> .    ?y <http://www.w3.org/2002/07/owl#sameAs> ?Drug .    ?Int <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug1> ?y .    ?Int <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug2> ?IntDrug .    ?Int <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/text> ?IntEffect . }" .
+<http://aksw.org/res/query#S10> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S10-plan> .
+<http://aksw.org/res/CostFed-S10-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S10-plan-join#1>  .
+<http://aksw.org/res/CostFed-S10-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "9054.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S10-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "3087.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S10-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S10-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S10-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "4348.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S10-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4348.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S10-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S10-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S10-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "71019.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S10-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "10122.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S10-plan> <http://aksw.org/schema/hasSimilarity> "0.9331176983041113"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S11> <http://aksw.org/schema/text> "SELECT ?drugDesc ?cpd ?equation WHERE {   ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/cathartics> .   ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId> ?cpd .   ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/description> ?drugDesc .   ?enzyme <http://bio2rdf.org/ns/kegg#xSubstrate> ?cpd .   ?enzyme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/ns/kegg#Enzyme> .   ?reaction <http://bio2rdf.org/ns/kegg#xEnzyme> ?enzyme .   ?reaction <http://bio2rdf.org/ns/kegg#equation> ?equation . }" .
+<http://aksw.org/res/query#S11> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S11-plan> .
+<http://aksw.org/res/CostFed-S11-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S11-plan-join#1>  .
+<http://aksw.org/res/CostFed-S11-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S11-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S11-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S11-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S11-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "34532.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S11-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7827.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S11-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S11-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S11-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S11-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S11-plan> <http://aksw.org/schema/hasSimilarity> "0.9999999031365391"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S12> <http://aksw.org/schema/text> "SELECT $drug $keggUrl $chebiImage WHERE {   $drug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .   $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId> $keggDrug .   $keggDrug <http://bio2rdf.org/ns/bio2rdf#url> $keggUrl .   $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName> $drugBankName .   $chebiDrug <http://purl.org/dc/elements/1.1/title> $drugBankName .   $chebiDrug <http://bio2rdf.org/ns/bio2rdf#image> $chebiImage .} " .
+<http://aksw.org/res/query#S12> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S12-plan> .
+<http://aksw.org/res/CostFed-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S12-plan-join#1>  .
+<http://aksw.org/res/CostFed-S12-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "403.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "945.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S12-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S12-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S12-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S12-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "945.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S12-plan-join#2>  .
+<http://aksw.org/res/CostFed-S12-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "393.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "945.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S12-plan-join#2-tp3>  .
+<http://aksw.org/res/CostFed-S12-plan-join#2-tp3> <http://aksw.org/schema/hasActualCardinality> "34260.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S12-plan-join#2-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "34260.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S12-plan> <http://aksw.org/schema/hasSimilarity> "0.7051638838865378"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S13> <http://aksw.org/schema/text> "SELECT ?drug ?title WHERE {    ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/micronutrient> .   ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber> ?id .   ?keggDrug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/ns/kegg#Drug> .   ?keggDrug <http://bio2rdf.org/ns/bio2rdf#xRef> ?id .   ?keggDrug <http://purl.org/dc/elements/1.1/title> ?title .}" .
+<http://aksw.org/res/query#S13> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S13-plan> .
+<http://aksw.org/res/CostFed-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S13-plan-join#1>  .
+<http://aksw.org/res/CostFed-S13-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "28.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S13-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S13-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S13-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S13-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "32517.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S13-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "19068.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S13-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S13-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S13-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "47.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S13-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S13-plan> <http://aksw.org/schema/hasSimilarity> "0.9999990245171989"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S14> <http://aksw.org/schema/text> "SELECT $drug $transform $mass WHERE {   	{ $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/affectedOrganism>  'Humans and other mammals'. 	  $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber> $cas . 	  $keggDrug <http://bio2rdf.org/ns/bio2rdf#xRef> $cas . 	  $keggDrug <http://bio2rdf.org/ns/bio2rdf#mass> $mass . 	     	} . 	  OPTIONAL { $drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/biotransformation> $transform . } }" .
+<http://aksw.org/res/query#S14> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-S14-plan> .
+<http://aksw.org/res/CostFed-S14-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-S14-plan-join#1>  .
+<http://aksw.org/res/CostFed-S14-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1620.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S14-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "22.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S14-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S14-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-S14-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1247.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S14-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "22.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S14-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-S14-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-S14-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "65963.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-S14-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "61234.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-S14-plan> <http://aksw.org/schema/hasSimilarity> "0.9995355562732697"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C1> <http://aksw.org/schema/text> "PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/> PREFIX drugtype: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugtype/>PREFIX kegg: <http://bio2rdf.org/ns/kegg#>PREFIX chebi: <http://bio2rdf.org/ns/bio2rdf#>PREFIX purl: <http://purl.org/dc/elements/1.1/>SELECT distinct ?drug	?drugDesc ?molecularWeightAverage 	?compound   ?ReactionTitle    ?ChemicalEquation WHERE{?drug 			drugbank:description 	 ?drugDesc .?drug 			drugbank:drugType 	 drugtype:smallMolecule .?drug 	     drugbank:keggCompoundId ?compound. ?enzyme 		kegg:xSubstrate 	?compound .?Chemicalreaction 	kegg:xEnzyme 		?enzyme .?Chemicalreaction	kegg:equation 		?ChemicalEquation .?Chemicalreaction 	purl:title 		?ReactionTitleOPTIONAL { ?drug drugbank:molecularWeightAverage ?molecularWeightAverage.FILTER (?molecularWeightAverage > 114) }}Limit 1000" .
+<http://aksw.org/res/query#C1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C1-plan> .
+<http://aksw.org/res/CostFed-C1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C1-plan-join#1>  .
+<http://aksw.org/res/CostFed-C1-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "3851.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C1-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1321.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C1-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-C1-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1035.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C1-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1321.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C1-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-C1-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "34532.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C1-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7827.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C1-plan> <http://aksw.org/schema/hasSimilarity> "0.9893304094943304"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C2> <http://aksw.org/schema/text> "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>PREFIX owl: <http://www.w3.org/2002/07/owl#>PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>PREFIX kegg: <http://bio2rdf.org/ns/kegg#>PREFIX chebi: <http://bio2rdf.org/ns/chebi#>PREFIX purl: <http://purl.org/dc/elements/1.1/>PREFIX bio2RDF: <http://bio2rdf.org/ns/bio2rdf#>SELECT ?drug ?keggmass ?chebiIupacName WHERE {?drug rdf:type drugbank:drugs .?drug drugbank:keggCompoundId ?keggDrug .?keggDrug bio2RDF:mass ?keggmass .?drug drugbank:genericName ?drugBankName .?chebiDrug purl:title ?drugBankName .?chebiDrug chebi:iupacName ?chebiIupacName .OPTIONAL {             ?drug drugbank:inchiIdentifier ?drugbankInchi .			?chebiDrug bio2RDF:inchi ?chebiInchi .			FILTER (?drugbankInchi = ?chebiInchi) 		}}" .
+<http://aksw.org/res/query#C2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C2-plan> .
+<http://aksw.org/res/CostFed-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C2-plan-join#1>  .
+<http://aksw.org/res/CostFed-C2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "945.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C2-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-C2-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "14369.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "18035.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C2-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-C2-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "945.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C2-plan-join#2>  .
+<http://aksw.org/res/CostFed-C2-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "945.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C2-plan-join#3>  .
+<http://aksw.org/res/CostFed-C2-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "11736.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "5.1544512E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C2-plan-join#3-tp2>  .
+<http://aksw.org/res/CostFed-C2-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "4392.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C2-plan-join#4>  .
+<http://aksw.org/res/CostFed-C2-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "11736.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "5.1544512E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C2-plan-join#4-tp2>  .
+<http://aksw.org/res/CostFed-C2-plan-join#4-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#4-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "4392.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C2-plan-join#5>  .
+<http://aksw.org/res/CostFed-C2-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "11736.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "5.1544512E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C2-plan-join#5-tp2>  .
+<http://aksw.org/res/CostFed-C2-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "4392.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C2-plan-join#6>  .
+<http://aksw.org/res/CostFed-C2-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "11736.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "5.1544512E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C2-plan-join#6-tp2>  .
+<http://aksw.org/res/CostFed-C2-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C2-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "4392.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C2-plan> <http://aksw.org/schema/hasSimilarity> "0.8519733488568765"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C3> <http://aksw.org/schema/text> "PREFIX foaf: 		<http://xmlns.com/foaf/0.1/>PREFIX geonames: 	<http://www.geonames.org/ontology#>PREFIX mo:   		<http://purl.org/ontology/mo/>PREFIX nytimes:         <http://data.nytimes.com/elements/>PREFIX owl: <http://www.w3.org/2002/07/owl#>SELECT DISTINCT ?artist ?name ?location ?anylocationWHERE {	     ?artist a mo:MusicArtist ;         foaf:name ?name ;		 foaf:based_near ?location .         ?location geonames:parentFeature ?locationName .         ?locationName geonames:name ?anylocation .         ?nytLocation owl:sameAs ?location.         ?nytLocation nytimes:topicPage ?news OPTIONAL {         ?locationName geonames:name 'Islamic Republic of Afghanistan' .}}" .
+<http://aksw.org/res/query#C3> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C3-plan> .
+<http://aksw.org/res/CostFed-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C3-plan-join#1>  .
+<http://aksw.org/res/CostFed-C3-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "2488.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C3-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-C3-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "2488.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C3-plan-join#1-tp3>  .
+<http://aksw.org/res/CostFed-C3-plan-join#1-tp3> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#1-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "21143.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C3-plan-join#2>  .
+<http://aksw.org/res/CostFed-C3-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "18.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "2488.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C3-plan-join#2-tp4>  .
+<http://aksw.org/res/CostFed-C3-plan-join#2-tp4> <http://aksw.org/schema/hasActualCardinality> "7481493.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#2-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "7481493.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C3-plan-join#3>  .
+<http://aksw.org/res/CostFed-C3-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "22.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "2488.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C3-plan-join#3-tp2>  .
+<http://aksw.org/res/CostFed-C3-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "7481494.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C3-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7481494.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C3-plan> <http://aksw.org/schema/hasSimilarity> "0.002011436408938508"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C4> <http://aksw.org/schema/text> "prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>prefix geonames: <http://www.geonames.org/ontology#>prefix owl: <http://www.w3.org/2002/07/owl#>Prefix dbpedia: <http://dbpedia.org/ontology/>SELECT DISTINCT ?countryName ?countryCode ?locationMap ?population ?longitude ?latitude ?nationalAnthem ?foundingDate ?largestCity ?ethnicGroup ?motto{?NYTplace geonames:name ?countryName;geonames:countryCode ?countryCode;geonames:population  ?population;geo:long   ?longitude;geo:lat     ?latitude;owl:sameAs   ?geonameplace.OPTIONAL{?geonameplace dbpedia:capital ?capital;dbpedia:anthem ?nationalAnthem;dbpedia:foundingDate ?foundingDate;dbpedia:largestCity ?largestCity;dbpedia:ethnicGroup ?ethnicGroup;dbpedia:motto ?motto.}}LIMIT 50" .
+<http://aksw.org/res/query#C4> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C4-plan> .
+<http://aksw.org/res/CostFed-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C4-plan-join#1>  .
+<http://aksw.org/res/CostFed-C4-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1157.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "174311.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C4-plan-join#1-tp4>  .
+<http://aksw.org/res/CostFed-C4-plan-join#1-tp4> <http://aksw.org/schema/hasActualCardinality> "236601.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#1-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "236601.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C4-plan-join#2>  .
+<http://aksw.org/res/CostFed-C4-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "42.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "174311.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C4-plan-join#2-tp2>  .
+<http://aksw.org/res/CostFed-C4-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "7483281.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7483281.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C4-plan-join#3>  .
+<http://aksw.org/res/CostFed-C4-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "1520.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "174311.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C4-plan-join#3-tp4>  .
+<http://aksw.org/res/CostFed-C4-plan-join#3-tp4> <http://aksw.org/schema/hasActualCardinality> "7476084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#3-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "7476084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C4-plan-join#4>  .
+<http://aksw.org/res/CostFed-C4-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "778.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "174311.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C4-plan-join#4-tp6>  .
+<http://aksw.org/res/CostFed-C4-plan-join#4-tp6> <http://aksw.org/schema/hasActualCardinality> "7481494.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C4-plan-join#4-tp6> <http://aksw.org/schema/hasEstimatedCardinality> "7481494.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C4-plan> <http://aksw.org/schema/hasSimilarity> "0.018845425408769455"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C5> <http://aksw.org/schema/text> "PREFIX linkedmdb: <http://data.linkedmdb.org/resource/movie/>PREFIX dcterms: <http://purl.org/dc/terms/>PREFIX dbpedia: <http://dbpedia.org/ontology/>PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>SELECT ?actor ?movie ?movieTitle ?movieDate ?birthDate ?spouseName{        ?actor rdfs:label ?actor_name_en;               dbpedia:birthDate ?birthDate ;               dbpedia:spouse ?spouseURI .        ?spouseURI rdfs:label ?spouseName . 	?imdbactor linkedmdb:actor_name ?actor_name.      ?movie linkedmdb:actor ?imdbactor ;             dcterms:title ?movieTitle ;             dcterms:date ?movieDate      FILTER(STR(?actor_name_en )= STR(?actor_name))} LIMIT 500" .
+<http://aksw.org/res/query#C5> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C5-plan> .
+<http://aksw.org/res/CostFed-C5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C5-plan-join#1>  .
+<http://aksw.org/res/CostFed-C5-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "11004.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "16085.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C5-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-C5-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "11020.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "16084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C5-plan-join#1-tp3>  .
+<http://aksw.org/res/CostFed-C5-plan-join#1-tp3> <http://aksw.org/schema/hasActualCardinality> "7907411.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#1-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "7907411.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C5-plan-join#2>  .
+<http://aksw.org/res/CostFed-C5-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "4900.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "16086.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C5-plan-join#2-tp1>  .
+<http://aksw.org/res/CostFed-C5-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "7907411.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7907411.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C5-plan-join#3>  .
+<http://aksw.org/res/CostFed-C5-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "2.211E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "1.192149546E9"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C5-plan-join#3-tp4>  .
+<http://aksw.org/res/CostFed-C5-plan-join#3-tp4> <http://aksw.org/schema/hasActualCardinality> "4900.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C5-plan-join#3-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "74111.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C5-plan> <http://aksw.org/schema/hasSimilarity> "0.9437855718097213"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C6> <http://aksw.org/schema/text> "PREFIX linkedmdb: <http://data.linkedmdb.org/resource/movie/>prefix owl: <http://www.w3.org/2002/07/owl#>PREFIX dcterms: <http://purl.org/dc/terms/>PREFIX purl: <http://purl.org/dc/terms/>PREFIX nytimes: <http://data.nytimes.com/elements/>SELECT ?actor ?filmTitle ?news ?variants ?articleCount ?first_use ?latest_useWHERE {?film purl:title 			?filmTitle .?film linkedmdb:actor 			?actor .?actor owl:sameAs 			?dbpediaURI.?nytURI owl:sameAs 			?dbpediaURI .?nytURI nytimes:topicPage 		?news ;	nytimes:number_of_variants 	?variants;	nytimes:associated_article_count ?articleCount;	nytimes:first_use 		?first_use;	nytimes:latest_use 		?latest_use}ORDER BY (?actor)" .
+<http://aksw.org/res/query#C6> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C6-plan> .
+<http://aksw.org/res/CostFed-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C6-plan-join#1>  .
+<http://aksw.org/res/CostFed-C6-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C6-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "7189.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C6-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C6-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-C6-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "23726.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C6-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "121777.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C6-plan> <http://aksw.org/schema/hasSimilarity> "0.8629368426780255"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C7> <http://aksw.org/schema/text> "prefix swc: <http://data.semanticweb.org/ns/swc/ontology#>prefix swrc: <http://swrc.ontoware.org/ontology#>prefix eswc: <http://data.semanticweb.org/conference/eswc/>prefix foaf: <http://xmlns.com/foaf/0.1/>prefix dbpedia: <http://dbpedia.org/ontology/>prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>SELECT DISTINCT ?author ?role ?paper ?place ?capital ?latitude ?longitude  ?proceedings WHERE {?role swc:isRoleAt  eswc:2010.?role swc:heldBy ?author .?proceedings swc:relatedToEvent eswc:2010.?paper swrc:author ?author .?author foaf:based_near ?place.?paper swc:isPartOf ?proceedings . OPTIONAL{?place dbpedia:capital ?capital;	geo:lat ?latitude;		geo:long ?longitude.}}" .
+<http://aksw.org/res/query#C7> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C7-plan> .
+
+
+<http://aksw.org/res/CostFed-C7-plan> <http://aksw.org/schema/hasSimilarity> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C8> <http://aksw.org/schema/text> "prefix swc: <http://data.semanticweb.org/ns/swc/ontology#>prefix swrc: <http://swrc.ontoware.org/ontology#>prefix eswc: <http://data.semanticweb.org/conference/eswc/>prefix iswc:  <http://data.semanticweb.org/conference/iswc/2009/>prefix foaf: <http://xmlns.com/foaf/0.1/>prefix purl: <http://purl.org/ontology/bibo/>PREFIX dbpedia: <http://dbpedia.org/ontology/>PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>SELECT DISTINCT * WHERE {?paper swc:isPartOf iswc:proceedings .iswc:proceedings swrc:address ?proceedingAddress.?paper swrc:author ?author .?author swrc:affiliation ?affiliation ; rdfs:label ?fullnames ; foaf:based_near ?place.OPTIONAL{?place dbpedia:capital ?capital;       dbpedia:populationDensity  ?populationDensity;       dbpedia:governmentType   ?governmentType;       dbpedia:language  ?language ;       dbpedia:leaderTitle ?leaderTitle.}}" .
+<http://aksw.org/res/query#C8> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C8-plan> .
+
+
+<http://aksw.org/res/CostFed-C8-plan> <http://aksw.org/schema/hasSimilarity> "0.3364588891976247"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C9> <http://aksw.org/schema/text> "Prefix dbpedia: <http://dbpedia.org/ontology/>Prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>Prefix owl: <http://www.w3.org/2002/07/owl#>Prefix drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>SELECT * WHERE {?Drug rdf:type dbpedia:Drug .?drugbankDrug owl:sameAs ?Drug .?InteractionName drugbank:interactionDrug1 ?drugbankDrug .?InteractionName drugbank:interactionDrug2 ?drugbankDrug2 .?InteractionName drugbank:text ?IntEffect OPTIONAL{?drugbankDrug  drugbank:affectedOrganism 'Humans and other mammals';drugbank:description ?description ;drugbank:structure ?structure ;drugbank:casRegistryNumber ?casRegistryNumber}}ORDER BY (?drugbankDrug)LIMIT 100" .
+<http://aksw.org/res/query#C9> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C9-plan> .
+<http://aksw.org/res/CostFed-C9-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C9-plan-join#1>  .
+<http://aksw.org/res/CostFed-C9-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "9054.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C9-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "3087.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C9-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C9-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-C9-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "4348.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C9-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4348.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C9-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C9-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-C9-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "71019.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C9-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "10122.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C9-plan> <http://aksw.org/schema/hasSimilarity> "0.933009403400264"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C10> <http://aksw.org/schema/text> "PREFIX tcga: <http://tcga.deri.ie/schema/>PREFIX kegg: <http://bio2rdf.org/ns/kegg#>PREFIX dbpedia: <http://dbpedia.org/ontology/>PREFIX drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>PREFIX purl: <http://purl.org/dc/terms/>SELECT  DISTINCT ?patient  ?gender ?country ?popDensity ?drugName ?indication ?formula ?compound WHERE{?uri tcga:bcr_patient_barcode 			?patient .?patient tcga:gender 					?gender.?patient dbpedia:country 				?country.?country dbpedia:populationDensity 		?popDensity.?patient tcga:bcr_drug_barcode 			?drugbcr.?drugbcr tcga:drug_name 				?drugName. ?drgBnkDrg  drugbank:genericName 		?drugName.?drgBnkDrg  drugbank:indication 		?indication.?drgBnkDrg  drugbank:chemicalFormula 	?formula.?drgBnkDrg 	drugbank:keggCompoundId 	?compound .}" .
+<http://aksw.org/res/query#C10> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-C10-plan> .
+<http://aksw.org/res/CostFed-C10-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C10-plan-join#1>  .
+<http://aksw.org/res/CostFed-C10-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "55.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "228.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C10-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-C10-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "197.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "228.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C10-plan-join#1-tp3>  .
+<http://aksw.org/res/CostFed-C10-plan-join#1-tp3> <http://aksw.org/schema/hasActualCardinality> "842.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#1-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C10-plan-join#2>  .
+<http://aksw.org/res/CostFed-C10-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "372.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "429.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-C10-plan-join#3>  .
+<http://aksw.org/res/CostFed-C10-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "762.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "698.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-C10-plan-join#3-tp1>  .
+<http://aksw.org/res/CostFed-C10-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "84930.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-C10-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "84930.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-C10-plan> <http://aksw.org/schema/hasSimilarity> "0.018154448780362056"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#ch1> <http://aksw.org/schema/text> "SELECT DISTINCT  *WHERE  { ?place          <http://www.geonames.org/ontology#name>  ?countryName .    ?place          <http://www.geonames.org/ontology#countryCode>  ?countryCode .    ?place          <http://www.geonames.org/ontology#population>  ?population .    ?place          <http://www.w3.org/2003/01/geo/wgs84_pos#long>  ?longitude .    ?place          <http://www.w3.org/2003/01/geo/wgs84_pos#lat>  ?latitude .    ?place          <http://www.w3.org/2002/07/owl#sameAs>  ?geonameplace .    ?geonameplace          <http://dbpedia.org/ontology/capital>  ?capital .    ?geonameplace          <http://dbpedia.org/ontology/anthem>  ?nationalAnthem .    ?geonameplace          <http://dbpedia.org/ontology/foundingDate>  ?foundingDate .    ?geonameplace          <http://dbpedia.org/ontology/largestCity>  ?largestCity .    ?geonameplace          <http://dbpedia.org/ontology/ethnicGroup>  ?ethnicGroup .    ?geonameplace          <http://dbpedia.org/ontology/motto>  ?motto .    ?role     <http://data.semanticweb.org/ns/swc/ontology#heldBy>  ?writer .    ?writer   <http://xmlns.com/foaf/0.1/based_near>  ?geonameplace .    ?dbpediaCountry   <http://www.w3.org/2002/07/owl#sameAs>  ?geonameplace .    ?dbpediaCountry   <http://data.nytimes.com/elements/latest_use>  ?dateused .  }ORDER BY DESC(?population)" .
+<http://aksw.org/res/query#ch1> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-ch1-plan> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#1>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "48.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "650.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1981.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "3933.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#1-tp4>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#1-tp4> <http://aksw.org/schema/hasActualCardinality> "102.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#1-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "650.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#2>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "48.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "650.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#2-tp2>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "20452.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "20452.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#3>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "144.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "654.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#3-tp7>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#3-tp7> <http://aksw.org/schema/hasActualCardinality> "149588.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#3-tp7> <http://aksw.org/schema/hasEstimatedCardinality> "149588.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#4>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "192.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "654.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#4-tp6>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#4-tp6> <http://aksw.org/schema/hasActualCardinality> "236601.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#4-tp6> <http://aksw.org/schema/hasEstimatedCardinality> "236601.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#5>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "384.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "654.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#5-tp9>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#5-tp9> <http://aksw.org/schema/hasActualCardinality> "7476084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#5-tp9> <http://aksw.org/schema/hasEstimatedCardinality> "7476084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#6>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "768.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "654.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#6-tp8>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#6-tp8> <http://aksw.org/schema/hasActualCardinality> "7481494.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#6-tp8> <http://aksw.org/schema/hasEstimatedCardinality> "7481494.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#7>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "1536.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "654.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#7> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#7-tp3>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#7-tp3> <http://aksw.org/schema/hasActualCardinality> "7483281.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#7-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "7483281.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch1-plan-join#8>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "3072.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "654.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch1-plan-join#8-tp5>  .
+<http://aksw.org/res/CostFed-ch1-plan-join#8-tp5> <http://aksw.org/schema/hasActualCardinality> "7483281.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch1-plan-join#8-tp5> <http://aksw.org/schema/hasEstimatedCardinality> "7483281.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-ch1-plan> <http://aksw.org/schema/hasSimilarity> "1.9569480729174498E-4"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+
+<http://aksw.org/res/query#ch2> <http://aksw.org/schema/text> "SELECT DISTINCT  ?drug ?drugBankName ?keggmass ?chebiIupacNameWHERE  { ?dbPediaDrug  a                 <http://dbpedia.org/ontology/Drug> .    ?dbPediaDrug         <http://dbpedia.org/ontology/casNumber>  ?casNumber .    ?drugbankDrug         <http://www.w3.org/2002/07/owl#sameAs>  ?dbPediadrug .    ?drugbankDrug          <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId>  ?keggDrug .    ?keggDrug  <http://bio2rdf.org/ns/bio2rdf#mass>  ?keggmass .    ?drug     <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>  ?drugBankName .    ?chebiDrug  <http://purl.org/dc/elements/1.1/title>  ?drugBankName .    ?chebiDrug          <http://bio2rdf.org/ns/chebi#iupacName>  ?chebiIupacName .    ?drug     <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/inchiIdentifier>  ?drugbankInchi .    ?chebiDrug  <http://bio2rdf.org/ns/bio2rdf#inchi>  ?chebiInchi .    FILTER regex(?chebiIupacName, 'adenosine')  }" .
+<http://aksw.org/res/query#ch2> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-ch2-plan> .
+<http://aksw.org/res/CostFed-ch2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch2-plan-join#1>  .
+<http://aksw.org/res/CostFed-ch2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "11736.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "11736.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch2-plan-join#1-tp3>  .
+<http://aksw.org/res/CostFed-ch2-plan-join#1-tp3> <http://aksw.org/schema/hasActualCardinality> "18507.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#1-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "18507.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch2-plan-join#2>  .
+<http://aksw.org/res/CostFed-ch2-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.1555352E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch2-plan-join#2-tp2>  .
+<http://aksw.org/res/CostFed-ch2-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "2631.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch2-plan-join#2-tp4>  .
+<http://aksw.org/res/CostFed-ch2-plan-join#2-tp4> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch2-plan-join#2-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "4392.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+
+<http://aksw.org/res/query#ch3> <http://aksw.org/schema/text> "SELECT  *WHERE  { ?drugbcr  <http://tcga.deri.ie/schema/drug_name>  ?drug .    ?drgBnkDrg  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>  ?drug .    ?drgBnkDrg          <http://www.w3.org/2002/07/owl#sameAs>  ?dbpediaDrug .    ?dbpediaDrug  <http://www.w3.org/2000/01/rdf-schema#label>  ?label .    ?drgBnkDrg  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId>  ?keggDrug .    ?keggDrug  <http://bio2rdf.org/ns/bio2rdf#mass>  ?keggmass .    ?keggDrug         <http://purl.org/dc/elements/1.1/title>  ?title .    ?chebiDrug  <http://purl.org/dc/elements/1.1/title>  ?drug .    ?chebiDrug          <http://bio2rdf.org/ns/bio2rdf#mass>  ?mass .    ?chebiDrug          <http://bio2rdf.org/ns/bio2rdf#formula>  ?formula .    ?chebiDrug          <http://bio2rdf.org/ns/bio2rdf#urlImage>  ?image .  }ORDER BY ?mass" .
+<http://aksw.org/res/query#ch3> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-ch3-plan> .
+<http://aksw.org/res/CostFed-ch3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch3-plan-join#1>  .
+<http://aksw.org/res/CostFed-ch3-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "4110.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "852.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch3-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-ch3-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "4857.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch3-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-ch3-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "228.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "228.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch3-plan-join#2>  .
+<http://aksw.org/res/CostFed-ch3-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "852.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "852.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch3-plan-join#3>  .
+<http://aksw.org/res/CostFed-ch3-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "852.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "852.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch3-plan-join#3-tp3>  .
+<http://aksw.org/res/CostFed-ch3-plan-join#3-tp3> <http://aksw.org/schema/hasActualCardinality> "7941597.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch3-plan-join#3-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "7941597.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-ch3-plan> <http://aksw.org/schema/hasSimilarity> "1.9814205591869063E-4"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#ch4> <http://aksw.org/schema/text> "SELECT DISTINCT  *WHERE  { ?role     <http://data.semanticweb.org/ns/swc/ontology#isRoleAt>  <http://data.semanticweb.org/conference/eswc/2010> .    ?role          <http://data.semanticweb.org/ns/swc/ontology#heldBy>  ?author .    ?author   <http://xmlns.com/foaf/0.1/based_near>  ?geoname .    ?geoname  <http://www.w3.org/2003/01/geo/wgs84_pos#long>  ?longitude .    ?dbpediaCountry           <http://www.w3.org/2002/07/owl#sameAs>  ?geoname .    ?dbpediaCountry          <http://data.nytimes.com/elements/latest_use>  ?dateused .    ?dbpediaCountry          <http://www.w3.org/2002/07/owl#sameAs>  ?geoname .    ?artist   <http://xmlns.com/foaf/0.1/based_near>  ?geoname .    ?artist          <http://xmlns.com/foaf/0.1/homepage>  <http://people.csail.mit.edu/lkagal/> .    ?director  <http://dbpedia.org/ontology/nationality>  ?geoname .    ?film     <http://dbpedia.org/ontology/director>  ?director .    ?mdbFilm  <http://www.w3.org/2002/07/owl#sameAs>  ?film .    ?mdbFilm          <http://data.linkedmdb.org/resource/movie/genre>  ?genre .    FILTER regex(?geoname, 'United')  }" .
+<http://aksw.org/res/query#ch4> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-ch4-plan> .
+<http://aksw.org/res/CostFed-ch4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch4-plan-join#1>  .
+<http://aksw.org/res/CostFed-ch4-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch4-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-ch4-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "22865.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "20452.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch4-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-ch4-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch4-plan-join#2>  .
+<http://aksw.org/res/CostFed-ch4-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch4-plan-join#2-tp3>  .
+<http://aksw.org/res/CostFed-ch4-plan-join#2-tp3> <http://aksw.org/schema/hasActualCardinality> "154995.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#2-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "154995.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch4-plan-join#3>  .
+<http://aksw.org/res/CostFed-ch4-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch4-plan-join#3-tp4>  .
+<http://aksw.org/res/CostFed-ch4-plan-join#3-tp4> <http://aksw.org/schema/hasActualCardinality> "32432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch4-plan-join#3-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "32432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-ch4-plan> <http://aksw.org/schema/hasSimilarity> "0.12809154524199198"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#ch5> <http://aksw.org/schema/text> "SELECT DISTINCT  *WHERE  { ?uri      <http://tcga.deri.ie/schema/bcr_patient_barcode>  ?patient .    ?patient  ?p                    ?country .    ?country  <http://dbpedia.org/ontology/populationDensity>  32 .    ?nytimesCountry               <http://www.w3.org/2002/07/owl#sameAs>  ?country .    ?nytimesCountry          <http://data.nytimes.com/elements/latest_use>  ?dateused .    ?nytimesCountry          <http://www.w3.org/2002/07/owl#sameAs>  ?geonames .    ?artist   <http://xmlns.com/foaf/0.1/based_near>  ?geoname .    ?artist          <http://xmlns.com/foaf/0.1/homepage>  ?homepage .    ?director  <http://dbpedia.org/ontology/nationality>  ?dbpediaCountry .    ?film     <http://dbpedia.org/ontology/director>  <http://dbpedia.org/resource/Michael_Haussman> .    ?x        <http://www.w3.org/2002/07/owl#sameAs>  ?film .    ?x          <http://data.linkedmdb.org/resource/movie/genre>  ?genre .    ?patient  <http://tcga.deri.ie/schema/bcr_drug_barcode>  ?drugbcr .    ?drugbcr  <http://tcga.deri.ie/schema/drug_name>  ?drugName .    <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>            <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>  ?drugName .    <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>           <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/indication>  ?indication .    <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>           <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalFormula>  ?formula .    <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00441>           <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId>  ?compound .  }LIMIT   5" .
+
+
+<http://aksw.org/res/CostFed-ch5-plan> <http://aksw.org/schema/hasSimilarity> "NaN"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#ch6> <http://aksw.org/schema/text> "SELECT  ?patient ?country ?articleCount ?chemicalStructure ?idWHERE  { <http://tcga.deri.ie/TCGA-43-2576>            <http://tcga.deri.ie/schema/bcr_patient_barcode>  ?patient .    ?patient  <http://tcga.deri.ie/schema/gender>  'FEMALE' .    ?patient          <http://dbpedia.org/ontology/country>  ?country .    ?country  <http://dbpedia.org/ontology/populationDensity>  ?popDen .    ?nytimesCountry               <http://www.w3.org/2002/07/owl#sameAs>  ?country .    ?nytimesCountry          <http://data.nytimes.com/elements/latest_use>  ?latestused .    ?nytimesCountry          <http://data.nytimes.com/elements/number_of_variants>  ?totalVariants .    ?nytimesCountry          <http://data.nytimes.com/elements/associated_article_count>  ?articleCount .    ?nytimesCountry          <http://www.w3.org/2002/07/owl#sameAs>  ?geonames .    <http://data.semanticweb.org/person/christian-bizer>               <http://xmlns.com/foaf/0.1/based_near>  ?geoname .    <http://data.semanticweb.org/person/christian-bizer>          <http://xmlns.com/foaf/0.1/homepage>  ?homepage .    ?director  <http://dbpedia.org/ontology/nationality>  ?dbpediaCountry .    <http://dbpedia.org/resource/The_Last_Valley>               <http://dbpedia.org/ontology/director>  ?director .    ?x        <http://www.w3.org/2002/07/owl#sameAs>  <http://dbpedia.org/resource/The_Last_Valley> .    ?x           <http://data.linkedmdb.org/resource/movie/genre>  <http://data.linkedmdb.org/resource/film_genre/4> .    ?patient  <http://tcga.deri.ie/schema/bcr_drug_barcode>  ?drugbcr .    ?drugbcr  <http://tcga.deri.ie/schema/drug_name>  'Cisplatin' .    ?drgBnkDrg  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/inchiKey>  ?inchiKey .    ?drgBnkDrg          <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint>  ?meltingPoint .    ?drgBnkDrg          <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalStructure>  ?chemicalStructure .    ?drgBnkDrg          <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber>  ?id .    ?keggDrug  a                    <http://bio2rdf.org/ns/kegg#Drug> .    ?keggDrug          <http://bio2rdf.org/ns/bio2rdf#xRef>  ?id .    ?keggDrug          <http://purl.org/dc/elements/1.1/title>  'Follitropin alfa/beta' .  }" .
+
+
+<http://aksw.org/res/CostFed-ch6-plan> <http://aksw.org/schema/hasSimilarity> "NaN"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#ch7> <http://aksw.org/schema/text> "SELECT DISTINCT  *WHERE  { ?uri      <http://tcga.deri.ie/schema/bcr_patient_barcode>  ?patient .    ?patient  <http://tcga.deri.ie/schema/consent_or_death_status>  ?deathStatus .    ?patient         <http://dbpedia.org/ontology/country>  ?country .    ?country  <http://dbpedia.org/ontology/areaMetro>  ?areaMetro .    ?nytimesCountry               <http://www.w3.org/2002/07/owl#sameAs>  ?country .    ?nytimesCountry          <http://data.nytimes.com/elements/search_api_query>  ?apiQuery .    ?nytimesCountry          <http://www.w3.org/2002/07/owl#sameAs>  ?location .    ?artist   <http://xmlns.com/foaf/0.1/based_near>  ?location .    ?artist          <http://xmlns.com/foaf/0.1/firstName>  ?firstName .    ?director  <http://dbpedia.org/ontology/spouse>  ?spouse .    ?film     <http://dbpedia.org/ontology/director>  ?director .    ?x        <http://www.w3.org/2002/07/owl#sameAs>  ?film .    ?x           <http://data.linkedmdb.org/resource/movie/runtime>  ?runTime .    ?patient  <http://tcga.deri.ie/schema/bcr_drug_barcode>  ?drugbcr .    ?drugbcr  <http://tcga.deri.ie/schema/drug_name>  ?drugName .    ?drgBnkDrg  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber>  ?id .    ?drgBnkDrg           <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>  ?brandName .    ?keggDrug  <http://bio2rdf.org/ns/bio2rdf#xRef>  ?id .    ?keggDrug          <http://bio2rdf.org/ns/bio2rdf#mass>  ?mass .    ?keggDrug          <http://bio2rdf.org/ns/bio2rdf#synonym>  ?synonym .    ?chebiDrug  <http://purl.org/dc/elements/1.1/title>  ?drugName .  }LIMIT   775" .
+<http://aksw.org/res/query#ch7> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-ch7-plan> .
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch7-plan-join#1>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "429.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "429.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#1-tp2>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#1-tp2> <http://aksw.org/schema/hasActualCardinality> "928.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#1-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1917.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch7-plan-join#2>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1416.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "429.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#2-tp7>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#2-tp7> <http://aksw.org/schema/hasActualCardinality> "3875.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#2-tp7> <http://aksw.org/schema/hasEstimatedCardinality> "3875.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#2-tp9>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#2-tp9> <http://aksw.org/schema/hasActualCardinality> "197.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#2-tp9> <http://aksw.org/schema/hasEstimatedCardinality> "228.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch7-plan-join#3>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "5976.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "429.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#3-tp1>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "80475.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "80475.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch7-plan-join#4>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "775.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "98498.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#4-tp3>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#4-tp3> <http://aksw.org/schema/hasActualCardinality> "98498.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#4-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "98498.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch7-plan-join#5>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "120.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "445.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#5-tp4>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#5-tp4> <http://aksw.org/schema/hasActualCardinality> "121158.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#5-tp4> <http://aksw.org/schema/hasEstimatedCardinality> "121158.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch7-plan-join#6>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "332376.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "445.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#6-tp5>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#6-tp5> <http://aksw.org/schema/hasActualCardinality> "154995.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#6-tp5> <http://aksw.org/schema/hasEstimatedCardinality> "154995.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch7-plan-join#7>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "63.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "445.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#7> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch7-plan-join#7-tp6>  .
+<http://aksw.org/res/CostFed-ch7-plan-join#7-tp6> <http://aksw.org/schema/hasActualCardinality> "110683.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch7-plan-join#7-tp6> <http://aksw.org/schema/hasEstimatedCardinality> "110683.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/CostFed-ch7-plan> <http://aksw.org/schema/hasSimilarity> "0.0026379385938501278"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#ch8> <http://aksw.org/schema/text> "SELECT  *WHERE  { ?uri      <http://tcga.deri.ie/schema/bcr_patient_barcode>  ?patient .    ?patient  <http://tcga.deri.ie/schema/gender>  ?gender .    ?patient          <http://dbpedia.org/ontology/country>  ?country .    ?country  <http://dbpedia.org/ontology/populationDensity>  ?popDensity .    ?nytimesCountry               <http://www.w3.org/2002/07/owl#sameAs>  ?country .    ?nytimesCountry          <http://data.nytimes.com/elements/latest_use>  ?latestused .    ?nytimesCountry          <http://data.nytimes.com/elements/number_of_variants>  ?totalVariants .    ?nytimesCountry          <http://data.nytimes.com/elements/associated_article_count>  ?articleCount .     ?nytimesCountry         <http://www.w3.org/2002/07/owl#sameAs>  ?geonames .    ?role     <http://data.semanticweb.org/ns/swc/ontology#isRoleAt>  <http://data.semanticweb.org/conference/eswc/2010> .    ?role          <http://data.semanticweb.org/ns/swc/ontology#heldBy>  ?author .    ?author   <http://xmlns.com/foaf/0.1/based_near>  ?geoname .    ?artist   <http://xmlns.com/foaf/0.1/based_near>  ?geoname .    ?artist          <http://xmlns.com/foaf/0.1/homepage>  ?homepage .    ?director  <http://dbpedia.org/ontology/nationality>  ?dbpediaCountry .    ?film     <http://dbpedia.org/ontology/director>  ?director .    ?x        <http://www.w3.org/2002/07/owl#sameAs>  ?film .    ?x           <http://data.linkedmdb.org/resource/movie/genre>  ?genre .    ?patient  <http://tcga.deri.ie/schema/bcr_drug_barcode>  ?drugbcr .    ?drugbcr  <http://tcga.deri.ie/schema/drug_name>  ?drugName .    ?drgBnkDrg  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/inchiKey>  ?inchiKey .    ?drgBnkDrg          <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint>  ?meltingPoint .    ?drgBnkDrg          <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/chemicalStructure>  ?chemicalStructure .    ?drgBnkDrg          <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber>  ?id .    ?keggDrug  a                    <http://bio2rdf.org/ns/kegg#Drug> .    ?keggDrug          <http://bio2rdf.org/ns/bio2rdf#xRef>  ?id .    ?keggDrug          <http://purl.org/dc/elements/1.1/title>  ?title .    ?chebiDrug  <http://purl.org/dc/elements/1.1/title>  ?drugName .    ?chebiDrug          <http://bio2rdf.org/ns/chebi#iupacName>  ?chebiIupacName    OPTIONAL      { ?drgBnkDrg  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/inchiIdentifier>  ?drugbankInchi .        ?chebiDrug  <http://bio2rdf.org/ns/bio2rdf#inchi>  ?chebiInchi .        FILTER ( ?drugbankInchi = ?chebiInchi )      }  }LIMIT   1" .
+<http://aksw.org/res/query#ch8> <http://aksw.org/schema/queryPlan> <http://aksw.org/res/CostFed-ch8-plan> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#1>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "986100.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "986100.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch8-plan-join#1-tp1>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "197.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "228.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#2>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "94.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch8-plan-join#2-tp2>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "94.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/CostFed-ch8-plan-join#2-tp3>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#2-tp3> <http://aksw.org/schema/hasActualCardinality> "32517.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#2-tp3> <http://aksw.org/schema/hasEstimatedCardinality> "19068.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#3>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "838.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "10622.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#4>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "4325.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "4325.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#5>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "7296.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "7296.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#6>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "137702.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "41956.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#7>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "7296.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "7296.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#8>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "71757.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "7296.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/CostFed-ch8-plan-join#9>  .
+<http://aksw.org/res/CostFed-ch8-plan-join#9> <http://aksw.org/schema/hasActualCardinality> "2098800.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/CostFed-ch8-plan-join#9> <http://aksw.org/schema/hasEstimatedCardinality> "7296.0"^^<http://www.w3.org/2001/XMLSchema#Double> .

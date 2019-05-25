@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: org.semagrow.semagrow.org.aksw.simba.start.semagrow.QueryEvaluation

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/191/trunk/lib
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/187/trunk/lib/log4j-1.2.16.jar
+END
+commons-configuration-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/trunk/lib/commons-configuration-1.6.jar
+END
+SPLENDID-FedX11Bridge.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/188/trunk/lib/SPLENDID-FedX11Bridge.jar
+END
+sesame-core-2.6.2-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/189/trunk/lib/sesame-core-2.6.2-sources.jar
+END
+slf4j-log4j12-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/187/trunk/lib/slf4j-log4j12-1.6.4.jar
+END
+junit-4.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/187/trunk/lib/junit-4.10.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/trunk/lib/commons-httpclient-3.1.jar
+END
+nxparser-1.2.1-lite_SNAPSHOT_r64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/191/trunk/lib/nxparser-1.2.1-lite_SNAPSHOT_r64.jar
+END
+commons-codec-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/6/trunk/lib/commons-codec-1.4.jar
+END
+commons-logging-api-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/trunk/lib/commons-logging-api-1.1.1.jar
+END
+commons-cli-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/191/trunk/lib/commons-cli-1.2.jar
+END
+commons-lang-2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/trunk/lib/commons-lang-2.5.jar
+END
+slf4j-api-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/187/trunk/lib/slf4j-api-1.6.4.jar
+END
+openrdf-sesame-2.6.2-onejar.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/189/trunk/lib/openrdf-sesame-2.6.2-onejar.jar
+END

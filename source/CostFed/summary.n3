@@ -1,0 +1,540 @@
+@prefix ds:<http://aksw.org/quetsal/> .
+#---------------------http://163.180.116.242:8887/sparql Summaries-------------------------------
+[] a ds:Service ;
+     ds:url   <http://163.180.116.242:8887/sparql> ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes [];
+           ds:objPrefixes [];
+           ds:distinctSbjs 74 ;
+           ds:distinctObjs  64 ;
+           ds:triples    74 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes [];
+           ds:objPrefixes [];
+           ds:distinctSbjs 13 ;
+           ds:distinctObjs  7 ;
+           ds:triples    13 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes [];
+           ds:objPrefixes [];
+           ds:distinctSbjs 10 ;
+           ds:distinctObjs  6 ;
+           ds:triples    10 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes [];
+           ds:objPrefixes [];
+           ds:distinctSbjs 3 ;
+           ds:distinctObjs  3 ;
+           ds:triples    3 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes [];
+           ds:objPrefixes [];
+           ds:distinctSbjs 3 ;
+           ds:distinctObjs  3 ;
+           ds:triples    3 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/created> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/DAV//.folder.xsl"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//home/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/a"; ds:unique 8; ds:card 8 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/b"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/c"; ds:unique 13; ds:card 13 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/d"; ds:unique 140; ds:card 143 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/e"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/f"; ds:unique 6; ds:card 6 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/h"; ds:unique 31; ds:card 32 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/i"; ds:unique 114; ds:card 116 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/l"; ds:unique 20; ds:card 20 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/m"; ds:unique 17; ds:card 17 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/graphs_"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/p"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/yacutia"; ds:unique 5; ds:card 5 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/r"; ds:unique 24; ds:card 24 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/s"; ds:unique 37; ds:card 38 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/wsdl"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/uddi_"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/t"; ds:unique 223; ds:card 226 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/v"; ds:unique 38; ds:card 38 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/x"; ds:unique 29; ds:card 29 ];
+           ds:objPrefixes [];
+           ds:distinctSbjs 738 ;
+           ds:distinctObjs  3 ;
+           ds:triples    738 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/modified> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/DAV//.folder.xsl"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//home/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/a"; ds:unique 8; ds:card 8 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/b"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/c"; ds:unique 13; ds:card 13 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/d"; ds:unique 140; ds:card 143 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/e"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/f"; ds:unique 6; ds:card 6 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/h"; ds:unique 31; ds:card 32 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/i"; ds:unique 114; ds:card 116 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/l"; ds:unique 20; ds:card 20 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/m"; ds:unique 17; ds:card 17 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/graphs_"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/p"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/yacutia"; ds:unique 5; ds:card 5 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/r"; ds:unique 24; ds:card 24 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/s"; ds:unique 37; ds:card 38 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/wsdl"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/uddi_"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/t"; ds:unique 223; ds:card 226 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/v"; ds:unique 38; ds:card 38 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/x"; ds:unique 29; ds:card 29 ];
+           ds:objPrefixes [];
+           ds:distinctSbjs 738 ;
+           ds:distinctObjs  3 ;
+           ds:triples    738 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://purl.org/dc/terms/extent> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/DAV//.folder.xsl"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/a"; ds:unique 8; ds:card 8 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/b"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/c"; ds:unique 13; ds:card 13 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/d"; ds:unique 140; ds:card 140 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/e"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/f"; ds:unique 6; ds:card 6 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/h"; ds:unique 31; ds:card 31 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/i"; ds:unique 114; ds:card 114 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/l"; ds:unique 20; ds:card 20 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/m"; ds:unique 17; ds:card 17 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/graphs_"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/p"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/yacutia"; ds:unique 5; ds:card 5 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/r"; ds:unique 24; ds:card 24 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/s"; ds:unique 37; ds:card 37 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/wsdl"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/uddi_"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/t"; ds:unique 223; ds:card 223 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/v"; ds:unique 38; ds:card 38 ],
+             [ ds:prefix "http://localhost:8890/DAV//VAD/conductor/x"; ds:unique 29; ds:card 29 ];
+           ds:objPrefixes [];
+           ds:distinctSbjs 725 ;
+           ds:distinctObjs  667 ;
+           ds:triples    725 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#label> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#equivalent"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#priorVersion"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#A"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#c"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#InverseFunctionalProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#D"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#di"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#FunctionalProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#i"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#hasValue"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#SymmetricProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#versionInfo"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#backwardCompatibleWith"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#m"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Nothing"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#unionOf"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#O"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Restriction"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#s"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#T"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#allValuesFrom"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Class"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#on"; ds:unique 2; ds:card 2 ];
+           ds:objPrefixes [];
+           ds:distinctSbjs 40 ;
+           ds:distinctObjs  40 ;
+           ds:triples    40 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes [];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Nothing"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 2 ;
+           ds:distinctObjs  2 ;
+           ds:triples    2 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#complementOf> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Nothing"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Thing"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Nothing"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 2 ;
+           ds:distinctObjs  2 ;
+           ds:triples    2 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes [];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 2 ;
+           ds:distinctObjs  2 ;
+           ds:triples    2 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#unionOf> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Thing"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes [];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#domain> ;
+           ds:topSbjs [];
+           ds:topObjs
+             [ ds:object <http://www.w3.org/2002/07/owl#Restriction>; ds:card 7 ],
+             [ ds:object <http://www.w3.org/2002/07/owl#Class>; ds:card 5 ],
+             [ ds:object <http://www.w3.org/2002/07/owl#Ontology>; ds:card 4 ],
+             [ ds:object <http://www.w3.org/2002/07/owl#Thing>; ds:card 2 ];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#priorVersion"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#c"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#s"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#equivalentClass"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#di"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#i"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#allValuesFrom"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#hasValue"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#backwardCompatibleWith"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#m"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#unionOf"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#on"; ds:unique 2; ds:card 2 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/2000/01/rdf-schema#Class"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#AllDifferent"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Restriction"; ds:unique 1; ds:card 7 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Class"; ds:unique 1; ds:card 5 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Thing"; ds:unique 1; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#O"; ds:unique 2; ds:card 5 ];
+           ds:distinctSbjs 21 ;
+           ds:distinctObjs  7 ;
+           ds:triples    21 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#range> ;
+           ds:topSbjs [];
+           ds:topObjs
+             [ ds:object <http://www.w3.org/1999/02/22-rdf-syntax-ns#List>; ds:card 4 ],
+             [ ds:object <http://www.w3.org/2002/07/owl#Ontology>; ds:card 4 ],
+             [ ds:object <http://www.w3.org/2002/07/owl#Class>; ds:card 3 ],
+             [ ds:object <http://www.w3.org/2001/XMLSchema#nonNegativeInteger>; ds:card 3 ],
+             [ ds:object <http://www.w3.org/2002/07/owl#Thing>; ds:card 2 ],
+             [ ds:object <http://www.w3.org/2000/01/rdf-schema#Class>; ds:card 2 ];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#priorVersion"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#c"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#s"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#equivalentClass"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#di"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#i"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#allValuesFrom"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#backwardCompatibleWith"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#m"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#unionOf"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#on"; ds:unique 2; ds:card 2 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"; ds:unique 1; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2000/01/rdf-schema#Class"; ds:unique 1; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Class"; ds:unique 1; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Thing"; ds:unique 1; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Ontology"; ds:unique 1; ds:card 4 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#ObjectProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"; ds:unique 1; ds:card 4 ],
+             [ ds:prefix "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 20 ;
+           ds:distinctObjs  8 ;
+           ds:triples    20 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#imports> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/2000/01/rdf-schema"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+           ds:topSbjs
+             [ ds:subject <http://www.w3.org/2002/07/owl>; ds:card 3 ];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl"; ds:unique 1; ds:card 3 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/TR/2004/REC-owl-test-20040210/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/TR/2004/REC-owl-semantics-20040210/"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/TR/2004/REC-owl-features-20040210/"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  3 ;
+           ds:triples    3 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#comment> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes [];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#versionInfo> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes [];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2002/07/owl#priorVersion> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.daml.org/2001/03/daml+oil"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+           ds:topSbjs [];
+           ds:topObjs
+             [ ds:object <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>; ds:card 6 ],
+             [ ds:object <http://www.w3.org/2002/07/owl#ObjectProperty>; ds:card 3 ],
+             [ ds:object <http://www.w3.org/2000/01/rdf-schema#Class>; ds:card 2 ];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Restriction"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#InverseFunctionalProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#D"; ds:unique 3; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#AnnotationProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#TransitiveProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#FunctionalProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#SymmetricProperty"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Class"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#O"; ds:unique 2; ds:card 2 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"; ds:unique 1; ds:card 6 ],
+             [ ds:prefix "http://www.w3.org/2000/01/rdf-schema#Class"; ds:unique 1; ds:card 2 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#ObjectProperty"; ds:unique 1; ds:card 3 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#Class"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 12 ;
+           ds:distinctObjs  4 ;
+           ds:triples    12 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://www.w3.org/2002/07/owl#equivalentClass"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2002/07/owl#equivalentProperty"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/2000/01/rdf-schema#subClassOf"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 2 ;
+           ds:distinctObjs  2 ;
+           ds:triples    2 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/ns/sparql-service-description#endpoint> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/sparql"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes
+             [ ds:prefix "http://localhost:8890/sparql"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/ns/sparql-service-description#feature> ;
+           ds:topSbjs
+             [ ds:subject <http://localhost:8890/sparql>; ds:card 2 ];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/sparql"; ds:unique 1; ds:card 2 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/ns/sparql-service-description#UnionDefaultGraph"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/sparql-service-description#DereferencesURIs"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  2 ;
+           ds:triples    2 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/ns/sparql-service-description#resultFormat> ;
+           ds:topSbjs
+             [ ds:subject <http://localhost:8890/sparql>; ds:card 8 ];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/sparql"; ds:unique 1; ds:card 8 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/ns/formats/Turtle"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/formats/RDFa"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/formats/RDF_XML"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/formats/SPARQL_Results_XML"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/formats/SPARQL_Results_CSV"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/formats/SPARQL_Results_JSON"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/formats/N3"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://www.w3.org/ns/formats/N-Triples"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  8 ;
+           ds:triples    8 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/ns/sparql-service-description#supportedLanguage> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/sparql"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes
+             [ ds:prefix "http://www.w3.org/ns/sparql-service-description#SPARQL10Query"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://www.w3.org/ns/sparql-service-description#url> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://localhost:8890/sparql"; ds:unique 1; ds:card 1 ];
+           ds:objPrefixes
+             [ ds:prefix "http://localhost:8890/sparql"; ds:unique 1; ds:card 1 ];
+           ds:distinctSbjs 1 ;
+           ds:distinctObjs  1 ;
+           ds:triples    1 ;
+         ] ;
+     ds:capability
+         [
+           ds:predicate  <http://tcga.deri.ie/schema/bcr_patient_barcode> ;
+           ds:topSbjs [];
+           ds:topObjs [];
+           ds:subjPrefixes
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-D"; ds:unique 105; ds:card 105 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-E"; ds:unique 54; ds:card 54 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-F"; ds:unique 10; ds:card 10 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-G"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-HT-746"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-18-34"; ds:unique 12; ds:card 12 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-56-1622"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-2"; ds:unique 21; ds:card 21 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-3"; ds:unique 8; ds:card 8 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-4"; ds:unique 9; ds:card 9 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-6"; ds:unique 50; ds:card 50 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-TQ-A7RV"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-BF-A1"; ds:unique 5; ds:card 5 ],
+             [ ds:prefix "http://tcga.deri.ie/resource/TCGA-CS-"; ds:unique 20; ds:card 20 ];
+           ds:objPrefixes
+             [ ds:prefix "http://tcga.deri.ie/TCGA-D"; ds:unique 105; ds:card 105 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-E"; ds:unique 54; ds:card 54 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-F"; ds:unique 10; ds:card 10 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-G"; ds:unique 4; ds:card 4 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-HT-746"; ds:unique 2; ds:card 2 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-18-34"; ds:unique 12; ds:card 12 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-56-1622"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-2"; ds:unique 21; ds:card 21 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-3"; ds:unique 8; ds:card 8 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-4"; ds:unique 9; ds:card 9 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-TQ-A7RV"; ds:unique 1; ds:card 1 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-6"; ds:unique 50; ds:card 50 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-BF-A1"; ds:unique 5; ds:card 5 ],
+             [ ds:prefix "http://tcga.deri.ie/TCGA-CS-"; ds:unique 20; ds:card 20 ];
+           ds:distinctSbjs 302 ;
+           ds:distinctObjs  302 ;
+           ds:triples    302 ;
+         ] ;
+     ds:totalSbj 83007703 ; 
+     ds:totalObj 83006664 ; 
+     ds:totalTriples 2728 ; 
+             .

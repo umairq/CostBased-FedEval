@@ -1,0 +1,1036 @@
+
+<http://aksw.org/res/query#S1> <http://aksw.org/schema/text> "SELECT  ?predicate ?objectWHERE  {   { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object}    UNION      { ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .        ?subject ?predicate ?object      }  }" .
+
+<http://aksw.org/res/query#S2> <http://aksw.org/schema/text> "SELECT  ?party ?pageWHERE  { <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> ?party .    ?x <http://data.nytimes.com/elements/topicPage> ?page .    ?x <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>  }" .
+<http://aksw.org/res/Odyssey-S2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S2-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "35.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S2-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S2-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S2-plan-join#2-tp1>  .
+<http://aksw.org/res/Odyssey-S2-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S2-plan-join#2-tp2>  .
+<http://aksw.org/res/Odyssey-S2-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S2-plan-join#2-tp1>  .
+<http://aksw.org/res/Odyssey-S2-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "36697.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S2-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "36697.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S2-plan> <http://aksw.org/schema/hasSimilarity> "1.346852145766849E-4"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S3> <http://aksw.org/schema/text> "SELECT  ?president ?party ?pageWHERE  { ?president <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/President> .    ?president <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/United_States> .    ?president <http://dbpedia.org/ontology/party> ?party .    ?x <http://data.nytimes.com/elements/topicPage> ?page .    ?x <http://www.w3.org/2002/07/owl#sameAs> ?president  }" .
+<http://aksw.org/res/Odyssey-S3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S3-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "7.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S3-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "10.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "68.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S3-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "696.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S3-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "30571.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S3-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "8217.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S3-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "2105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S3-plan-join#4>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S3-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S3-plan-join#4-tp2>  .
+<http://aksw.org/res/Odyssey-S3-plan-join#4-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S3-plan-join#4-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S3-plan> <http://aksw.org/schema/hasSimilarity> "0.42331752824236574"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S4> <http://aksw.org/schema/text> "SELECT  ?actor ?newsWHERE  { ?film <http://purl.org/dc/terms/title> 'Tarzan' .    ?film <http://data.linkedmdb.org/resource/movie/actor> ?actor .    ?actor <http://www.w3.org/2002/07/owl#sameAs> ?x .    ?y <http://www.w3.org/2002/07/owl#sameAs> ?x .    ?y <http://data.nytimes.com/elements/topicPage> ?news  }" .
+<http://aksw.org/res/Odyssey-S4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S4-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "126344.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S4-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "17.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S4-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "11.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S4-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S4-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "194649.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S4-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "63162.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "44617.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S4-plan-join#4>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S4-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S4-plan-join#4-tp2>  .
+<http://aksw.org/res/Odyssey-S4-plan-join#4-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S4-plan-join#4-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S4-plan> <http://aksw.org/schema/hasSimilarity> "0.10646796194598203"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S5> <http://aksw.org/schema/text> "SELECT  ?film ?director ?genreWHERE  { ?film <http://dbpedia.org/ontology/director> ?director .    ?director <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Italy> .    ?x <http://www.w3.org/2002/07/owl#sameAs> ?film .    ?x <http://data.linkedmdb.org/resource/movie/genre> ?genre  }" .
+<http://aksw.org/res/Odyssey-S5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S5-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S5-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S5-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S5-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "6.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S5-plan-join#2-tp1>  .
+<http://aksw.org/res/Odyssey-S5-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "406.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "17.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S5-plan-join#2-tp2>  .
+<http://aksw.org/res/Odyssey-S5-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "52664.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "52700.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S5-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S5-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "13430.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "5121.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S5-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S5-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "13018.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S5-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-S5-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "63162.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S5-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S5-plan> <http://aksw.org/schema/hasSimilarity> "0.6369135259053372"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S6> <http://aksw.org/schema/text> "SELECT  ?name ?location ?newsWHERE  { ?artist <http://xmlns.com/foaf/0.1/name> ?name .    ?artist <http://xmlns.com/foaf/0.1/based_near> ?location .    ?location <http://www.geonames.org/ontology#parentFeature> ?germany .    ?germany <http://www.geonames.org/ontology#name> 'Federal Republic of Germany'  }" .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "11.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "5.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1216.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "3045.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#2-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#2-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7479713.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#4>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#5>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7479713.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#6>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#6-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#7>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#8>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#8-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#8-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#8-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#8-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#8-tp2> <http://aksw.org/schema/hasActualCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#8-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#9>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#9> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#9> <http://aksw.org/schema/hasEstimatedCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#9-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#9-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#9-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#10>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#10> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#10> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#11>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#11> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#11> <http://aksw.org/schema/hasEstimatedCardinality> "27.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#11> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#11-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#11-tp1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#11-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#11> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#11-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#11-tp2> <http://aksw.org/schema/hasActualCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#11-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S6-plan-join#12>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#12> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#12> <http://aksw.org/schema/hasEstimatedCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#12> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#12-tp1>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#12-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#12-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#12> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S6-plan-join#12-tp2>  .
+<http://aksw.org/res/Odyssey-S6-plan-join#12-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S6-plan-join#12-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S6-plan> <http://aksw.org/schema/hasSimilarity> "0.999970974731906"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S7> <http://aksw.org/schema/text> "SELECT  ?location ?newsWHERE  { ?location <http://www.geonames.org/ontology#parentFeature> ?parent .    ?parent <http://www.geonames.org/ontology#name> 'California' .    ?y <http://www.w3.org/2002/07/owl#sameAs> ?location .    ?y <http://data.nytimes.com/elements/topicPage> ?news  }" .
+<http://aksw.org/res/Odyssey-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S7-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S7-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "255.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "3045.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#2-tp1>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "112.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#2-tp2>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7479713.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S7-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S7-plan-join#4>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S7-plan-join#5>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "255.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "7479713.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S7-plan-join#6>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S7-plan-join#6-tp2>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S7-plan-join#7>  .
+<http://aksw.org/res/Odyssey-S7-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S7-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+<http://aksw.org/res/query#S8> <http://aksw.org/schema/text> "SELECT  ?drug ?meltWHERE  {   { ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/meltingPoint> ?melt}    UNION      { ?drug <http://dbpedia.org/ontology/Drug/meltingPoint> ?melt}  }" .
+<http://aksw.org/res/Odyssey-S8-plan> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S8-plan-tp#1>  .
+<http://aksw.org/res/Odyssey-S8-plan-tp#1> <http://aksw.org/schema/hasActualCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S8-plan-tp#1> <http://aksw.org/schema/hasEstimatedCardinality> "1159.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S8-plan> <http://aksw.org/schema/hasSimilarity> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S9> <http://aksw.org/schema/text> "SELECT  ?predicate ?objectWHERE  {   { <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> ?predicate ?object}    UNION      { <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00201> <http://www.w3.org/2002/07/owl#sameAs> ?caff .        ?caff ?predicate ?object      }  }" .
+
+<http://aksw.org/res/query#S10> <http://aksw.org/schema/text> "SELECT  ?Drug ?IntDrug ?IntEffectWHERE  { ?Drug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Drug> .    ?y <http://www.w3.org/2002/07/owl#sameAs> ?Drug .    ?Int <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug1> ?y .    ?Int <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/interactionDrug2> ?IntDrug .    ?Int <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/text> ?IntEffect  }" .
+
+<http://aksw.org/res/query#S11> <http://aksw.org/schema/text> "SELECT  ?drugDesc ?cpd ?equationWHERE  { ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/cathartics> .    ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId> ?cpd .    ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/description> ?drugDesc .    ?enzyme <http://bio2rdf.org/ns/kegg#xSubstrate> ?cpd .    ?enzyme <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/ns/kegg#Enzyme> .    ?reaction <http://bio2rdf.org/ns/kegg#xEnzyme> ?enzyme .    ?reaction <http://bio2rdf.org/ns/kegg#equation> ?equation  }" .
+<http://aksw.org/res/Odyssey-S11-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S11-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.3795422E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S11-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S11-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S11-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S11-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S11-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "1861.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S11-plan-join#4>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "34532.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "2.1897711E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S11-plan-join#5>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "7226.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "6523.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S11-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "7226.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S11-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "7827.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S11-plan-join#6>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "8447.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "3357.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S11-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "4245.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S11-plan-join#6-tp2>  .
+<http://aksw.org/res/Odyssey-S11-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "24575.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S11-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S11-plan> <http://aksw.org/schema/hasSimilarity> "0.3406208818384181"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S12> <http://aksw.org/schema/text> "SELECT  ?drug ?keggUrl ?chebiImageWHERE  { ?drug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> .    ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/keggCompoundId> ?keggDrug .    ?keggDrug <http://bio2rdf.org/ns/bio2rdf#url> ?keggUrl .    ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName> ?drugBankName .    ?chebiDrug <http://purl.org/dc/elements/1.1/title> ?drugBankName .    ?chebiDrug <http://bio2rdf.org/ns/bio2rdf#image> ?chebiImage  }" .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "272440.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "8.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "60.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#4>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#4-tp2>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp2> <http://aksw.org/schema/hasActualCardinality> "4772.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "4772.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#5>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#6>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "393.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "1941135.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#7>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "1301.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "57.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#8>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "60.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#9>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#9> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#9-tp2>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp2> <http://aksw.org/schema/hasActualCardinality> "4772.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "4772.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "34260.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "30015.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S12-plan-join#10>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#10> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#10> <http://aksw.org/schema/hasEstimatedCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#10-tp1>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#10-tp1> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#10-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S12-plan-join#10-tp2>  .
+<http://aksw.org/res/Odyssey-S12-plan-join#10-tp2> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S12-plan-join#10-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S12-plan> <http://aksw.org/schema/hasSimilarity> "0.02772453890393834"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S13> <http://aksw.org/schema/text> "SELECT  ?drug ?titleWHERE  { ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugCategory> <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugcategory/micronutrient> .    ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber> ?id .    ?keggDrug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bio2rdf.org/ns/kegg#Drug> .    ?keggDrug <http://bio2rdf.org/ns/bio2rdf#xRef> ?id .    ?keggDrug <http://purl.org/dc/elements/1.1/title> ?title  }" .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "5330.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "47.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#2-tp1>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "48.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#2-tp2>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "2240.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "2665.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#4>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "18865.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "29147.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#4-tp2>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#4-tp2> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#4-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#5>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "28.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "13000.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#6>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "47.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "48.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#6-tp2>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "2240.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#7>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "32517.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "6500.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S13-plan-join#8>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "32517.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#8-tp1>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#8-tp1> <http://aksw.org/schema/hasActualCardinality> "8117.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#8-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#8-tp2>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#8-tp2> <http://aksw.org/schema/hasActualCardinality> "73196.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#8-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S13-plan-join#8-tp1>  .
+<http://aksw.org/res/Odyssey-S13-plan-join#8-tp1> <http://aksw.org/schema/hasActualCardinality> "34146.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S13-plan-join#8-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S13-plan> <http://aksw.org/schema/hasSimilarity> "0.1280485116677392"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#S14> <http://aksw.org/schema/text> "SELECT  ?drug ?transform ?massWHERE  { { ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/affectedOrganism> 'Humans and other mammals' .      ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/casRegistryNumber> ?cas .      ?keggDrug <http://bio2rdf.org/ns/bio2rdf#xRef> ?cas .      ?keggDrug <http://bio2rdf.org/ns/bio2rdf#mass> ?mass    }    OPTIONAL      { ?drug <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/biotransformation> ?transform}  }" .
+<http://aksw.org/res/Odyssey-S14-plan> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S14-plan-tp#1>  .
+<http://aksw.org/res/Odyssey-S14-plan-tp#1> <http://aksw.org/schema/hasActualCardinality> "993.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-tp#1> <http://aksw.org/schema/hasEstimatedCardinality> "993.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S14-plan-join#1>  .
+<http://aksw.org/res/Odyssey-S14-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1620.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "55386.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S14-plan-join#2>  .
+<http://aksw.org/res/Odyssey-S14-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1247.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S14-plan-join#2-tp1>  .
+<http://aksw.org/res/Odyssey-S14-plan-join#2-tp1> <http://aksw.org/schema/hasActualCardinality> "1260.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#2-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#2> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S14-plan-join#2-tp2>  .
+<http://aksw.org/res/Odyssey-S14-plan-join#2-tp2> <http://aksw.org/schema/hasActualCardinality> "2240.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#2-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-S14-plan-join#3>  .
+<http://aksw.org/res/Odyssey-S14-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "65963.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "18462.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S14-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-S14-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "18507.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-S14-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-S14-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "73196.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-S14-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-S14-plan> <http://aksw.org/schema/hasSimilarity> "0.2233959485785644"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C1> <http://aksw.org/schema/text> "PREFIX  drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>PREFIX  kegg: <http://bio2rdf.org/ns/kegg#>PREFIX  purl: <http://purl.org/dc/elements/1.1/>PREFIX  chebi: <http://bio2rdf.org/ns/bio2rdf#>PREFIX  drugtype: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugtype/>SELECT DISTINCT  ?drug ?drugDesc ?molecularWeightAverage ?compound ?ReactionTitle ?ChemicalEquationWHERE  { ?drug drugbank:description ?drugDesc .    ?drug drugbank:drugType drugtype:smallMolecule .    ?drug drugbank:keggCompoundId ?compound .    ?enzyme kegg:xSubstrate ?compound .    ?Chemicalreaction kegg:xEnzyme ?enzyme .    ?Chemicalreaction kegg:equation ?ChemicalEquation .    ?Chemicalreaction purl:title ?ReactionTitle    OPTIONAL      { ?drug drugbank:molecularWeightAverage ?molecularWeightAverage        FILTER ( ?molecularWeightAverage > 114 )      }  }LIMIT   1000" .
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-tp#1>  .
+<http://aksw.org/res/Odyssey-C1-plan-tp#1> <http://aksw.org/schema/hasActualCardinality> "4727.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-tp#1> <http://aksw.org/schema/hasEstimatedCardinality> "4727.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C1-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "3851.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "6.12666252E8"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C1-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1035.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "12.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C1-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "1312.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "4645.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "1861.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C1-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "34532.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "5.1055521E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "24575.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7827.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C1-plan-join#5>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "7226.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "6523.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C1-plan-join#6>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "7226.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "7226.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-join#6-tp2>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "34146.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C1-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C1-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "7827.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C1-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-C1-plan> <http://aksw.org/schema/hasSimilarity> "0.11768227937917612"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C2> <http://aksw.org/schema/text> "PREFIX  drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>PREFIX  chebi: <http://bio2rdf.org/ns/chebi#>PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>PREFIX  owl:  <http://www.w3.org/2002/07/owl#>PREFIX  kegg: <http://bio2rdf.org/ns/kegg#>PREFIX  bio2RDF: <http://bio2rdf.org/ns/bio2rdf#>PREFIX  purl: <http://purl.org/dc/elements/1.1/>SELECT  ?drug ?keggmass ?chebiIupacNameWHERE  { ?drug rdf:type drugbank:drugs .    ?drug drugbank:keggCompoundId ?keggDrug .    ?keggDrug bio2RDF:mass ?keggmass .    ?drug drugbank:genericName ?drugBankName .    ?chebiDrug purl:title ?drugBankName .    ?chebiDrug chebi:iupacName ?chebiIupacName    OPTIONAL      { ?drug drugbank:inchiIdentifier ?drugbankInchi .        ?chebiDrug bio2RDF:inchi ?chebiInchi        FILTER ( ?drugbankInchi = ?chebiInchi )      }  }" .
+<http://aksw.org/res/Odyssey-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C2-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "705945.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C2-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1275.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "57.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C2-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "60.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C2-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C2-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "1331.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C2-plan-join#4-tp2>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp2> <http://aksw.org/schema/hasActualCardinality> "4772.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C2-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "4772.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C2-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "18507.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "18507.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C2-plan-join#5>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "14369.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "12385.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C2-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "15458.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C2-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "34055.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C2-plan-join#6>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "5.1544512E7"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C2-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C2-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "4392.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C2-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "4392.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+<http://aksw.org/res/query#C3> <http://aksw.org/schema/text> "PREFIX  nytimes: <http://data.nytimes.com/elements/>PREFIX  mo:   <http://purl.org/ontology/mo/>PREFIX  geonames: <http://www.geonames.org/ontology#>PREFIX  owl:  <http://www.w3.org/2002/07/owl#>PREFIX  foaf: <http://xmlns.com/foaf/0.1/>SELECT DISTINCT  ?artist ?name ?location ?anylocationWHERE  { ?artist <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> mo:MusicArtist .    ?artist foaf:name ?name .    ?artist foaf:based_near ?location .    ?location geonames:parentFeature ?locationName .    ?locationName geonames:name ?anylocation .    ?nytLocation owl:sameAs ?location .    ?nytLocation nytimes:topicPage ?news    OPTIONAL      { ?locationName geonames:name 'Islamic Republic of Afghanistan'}  }" .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "2208.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#5>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7479713.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#6>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#6-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7479714.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#7>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#8>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#9>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#9> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#9> <http://aksw.org/schema/hasEstimatedCardinality> "236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#10>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#10> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#10> <http://aksw.org/schema/hasEstimatedCardinality> "2208.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#11>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#11> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#11-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#11-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#11-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp1> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#11-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#11-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7479713.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#12>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#12> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#12> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#12> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#12-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#12-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#12-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#12> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#12-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#12-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#12-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#12> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#12-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#12-tp1> <http://aksw.org/schema/hasActualCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#12-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#13>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#13> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#13> <http://aksw.org/schema/hasEstimatedCardinality> "38.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#14>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#14> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#14> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#15>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#15> <http://aksw.org/schema/hasActualCardinality> "1082.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#15> <http://aksw.org/schema/hasEstimatedCardinality> "37.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#15> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#15-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#15-tp1> <http://aksw.org/schema/hasActualCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#15-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#16>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#16> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#16> <http://aksw.org/schema/hasEstimatedCardinality> "2208.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#17>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#17> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#17> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#17> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#17-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#17-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#17-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#17> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#17-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#17-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#17-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#17> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#17-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#17-tp1> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#17-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#18>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#18> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#18> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#18> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#18-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#18-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#18-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#18> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#18-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#18-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#18-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#18> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#18-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#18-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#18-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7479714.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#19>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#19> <http://aksw.org/schema/hasActualCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#19> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#20>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#20> <http://aksw.org/schema/hasActualCardinality> "9.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#20> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#21>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#21> <http://aksw.org/schema/hasActualCardinality> "1082.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#21> <http://aksw.org/schema/hasEstimatedCardinality> "37.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#21> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#21-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#21-tp1> <http://aksw.org/schema/hasActualCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#21-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#22>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#22> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#22> <http://aksw.org/schema/hasEstimatedCardinality> "2208.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#23>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#23> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#23> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#23> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#23-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#23-tp1> <http://aksw.org/schema/hasActualCardinality> "3244.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#23-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#23> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#23-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#23-tp2> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#23-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#23> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#23-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#23-tp1> <http://aksw.org/schema/hasActualCardinality> "3505.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#23-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C3-plan-join#24>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#24> <http://aksw.org/schema/hasActualCardinality> "21236.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#24> <http://aksw.org/schema/hasEstimatedCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#24> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#24-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#24-tp1> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#24-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#24> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#24-tp2>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#24-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#24-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#24> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-join#24-tp1>  .
+<http://aksw.org/res/Odyssey-C3-plan-join#24-tp1> <http://aksw.org/schema/hasActualCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-join#24-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-tp#1>  .
+<http://aksw.org/res/Odyssey-C3-plan-tp#1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-tp#1> <http://aksw.org/schema/hasEstimatedCardinality> "4.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C3-plan-tp#2>  .
+<http://aksw.org/res/Odyssey-C3-plan-tp#2> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C3-plan-tp#2> <http://aksw.org/schema/hasEstimatedCardinality> "2.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-C3-plan> <http://aksw.org/schema/hasSimilarity> "0.999305662199826"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C4> <http://aksw.org/schema/text> "PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>PREFIX  dbpedia: <http://dbpedia.org/ontology/>PREFIX  geonames: <http://www.geonames.org/ontology#>PREFIX  owl:  <http://www.w3.org/2002/07/owl#>SELECT DISTINCT  ?countryName ?countryCode ?locationMap ?population ?longitude ?latitude ?nationalAnthem ?foundingDate ?largestCity ?ethnicGroup ?mottoWHERE  { ?NYTplace geonames:name ?countryName .    ?NYTplace geonames:countryCode ?countryCode .    ?NYTplace geonames:population ?population .    ?NYTplace geo:long ?longitude .    ?NYTplace geo:lat ?latitude .    ?NYTplace owl:sameAs ?geonameplace    OPTIONAL      { ?geonameplace dbpedia:capital ?capital .        ?geonameplace dbpedia:anthem ?nationalAnthem .        ?geonameplace dbpedia:foundingDate ?foundingDate .        ?geonameplace dbpedia:largestCity ?largestCity .        ?geonameplace dbpedia:ethnicGroup ?ethnicGroup .        ?geonameplace dbpedia:motto ?motto      }  }LIMIT   50" .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "70105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "69722.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "70105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "70105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "70105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#5>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "70105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "117915.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "235318.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#6>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "1084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "1033.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#7>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "1084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#8>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "1084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#9>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#9> <http://aksw.org/schema/hasActualCardinality> "1084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#9> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C4-plan-join#10>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasActualCardinality> "1084.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#10-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasActualCardinality> "1283.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#10-tp2>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp2> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#10-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasActualCardinality> "3567.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#10-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasActualCardinality> "1761.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#10-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasActualCardinality> "1780.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C4-plan-join#10-tp1>  .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasActualCardinality> "3567.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C4-plan-join#10-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-C4-plan> <http://aksw.org/schema/hasSimilarity> "0.033077711648344124"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C5> <http://aksw.org/schema/text> "PREFIX  dcterms: <http://purl.org/dc/terms/>PREFIX  dbpedia: <http://dbpedia.org/ontology/>PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX  linkedmdb: <http://data.linkedmdb.org/resource/movie/>SELECT  ?actor ?movie ?movieTitle ?movieDate ?birthDate ?spouseNameWHERE  { ?actor rdfs:label ?actor_name_en .    ?actor dbpedia:birthDate ?birthDate .    ?actor dbpedia:spouse ?spouseURI .    ?spouseURI rdfs:label ?spouseName .    ?imdbactor linkedmdb:actor_name ?actor_name .    ?movie linkedmdb:actor ?imdbactor .    ?movie dcterms:title ?movieTitle .    ?movie dcterms:date ?movieDate    FILTER ( str(?actor_name_en) = str(?actor_name) )  }LIMIT   500" .
+<http://aksw.org/res/Odyssey-C5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C5-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.265026266E9"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C5-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "9564.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "7406.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C5-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "11004.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "10302.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C5-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "11020.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C5-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "13878.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C5-plan-join#4-tp2>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp2> <http://aksw.org/schema/hasActualCardinality> "232640.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C5-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C5-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "1048576.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C5-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "7943329.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+<http://aksw.org/res/query#C6> <http://aksw.org/schema/text> "PREFIX  nytimes: <http://data.nytimes.com/elements/>PREFIX  dcterms: <http://purl.org/dc/terms/>PREFIX  purl: <http://purl.org/dc/terms/>PREFIX  owl:  <http://www.w3.org/2002/07/owl#>PREFIX  linkedmdb: <http://data.linkedmdb.org/resource/movie/>SELECT  ?actor ?filmTitle ?news ?variants ?articleCount ?first_use ?latest_useWHERE  { ?film dcterms:title ?filmTitle .    ?film linkedmdb:actor ?actor .    ?actor owl:sameAs ?dbpediaURI .    ?nytURI owl:sameAs ?dbpediaURI .    ?nytURI nytimes:topicPage ?news .    ?nytURI nytimes:number_of_variants ?variants .    ?nytURI nytimes:associated_article_count ?articleCount .    ?nytURI nytimes:first_use ?first_use .    ?nytURI nytimes:latest_use ?latest_use  }ORDER BY ?actor" .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.37083586E8"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "15740.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "5231.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "15740.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "15740.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#5>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "15740.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#6>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "5231.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "7189.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#6-tp2>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp2> <http://aksw.org/schema/hasActualCardinality> "7432.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "31673.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "9943.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "9943.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#6-tp1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasActualCardinality> "7189.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#6-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#7>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "23726.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "26206.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#7> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#7-tp1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#7-tp1> <http://aksw.org/schema/hasActualCardinality> "63162.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#7-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "44617.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C6-plan-join#8>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "194649.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "53474.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#8-tp1>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#8-tp1> <http://aksw.org/schema/hasActualCardinality> "194649.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#8-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#8> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C6-plan-join#8-tp2>  .
+<http://aksw.org/res/Odyssey-C6-plan-join#8-tp2> <http://aksw.org/schema/hasActualCardinality> "85620.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C6-plan-join#8-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-C6-plan> <http://aksw.org/schema/hasSimilarity> "3.386731271856298E-4"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C7> <http://aksw.org/schema/text> "PREFIX  geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>PREFIX  swrc: <http://swrc.ontoware.org/ontology#>PREFIX  eswc: <http://data.semanticweb.org/conference/eswc/>PREFIX  dbpedia: <http://dbpedia.org/ontology/>PREFIX  swc:  <http://data.semanticweb.org/ns/swc/ontology#>PREFIX  foaf: <http://xmlns.com/foaf/0.1/>SELECT DISTINCT  ?author ?role ?paper ?place ?capital ?latitude ?longitude ?proceedingsWHERE  { ?role swc:isRoleAt eswc:2010 .    ?role swc:heldBy ?author .    ?proceedings swc:relatedToEvent eswc:2010 .    ?paper swrc:author ?author .    ?author foaf:based_near ?place .    ?paper swc:isPartOf ?proceedings    OPTIONAL      { ?place dbpedia:capital ?capital .        ?place geo:lat ?latitude .        ?place geo:long ?longitude      }  }" .
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C7-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "77.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C7-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "419.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "5.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C7-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "351.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "38.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "23.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "1899.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "2313.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "2312.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C7-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "185.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "327.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#4> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#4-tp1>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#4-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#4-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "31.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C7-plan-join#5>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "3676.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "3677.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "4208.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "1593.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C7-plan-join#6>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "1310.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "988.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C7-plan-join#7>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "1105.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#7> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#7-tp1>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#7-tp1> <http://aksw.org/schema/hasActualCardinality> "2322.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#7-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#7> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#7-tp2>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#7-tp2> <http://aksw.org/schema/hasActualCardinality> "651890.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#7-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#7> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C7-plan-join#7-tp1>  .
+<http://aksw.org/res/Odyssey-C7-plan-join#7-tp1> <http://aksw.org/schema/hasActualCardinality> "652451.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C7-plan-join#7-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-C7-plan> <http://aksw.org/schema/hasSimilarity> "0.0049115839747530775"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C8> <http://aksw.org/schema/text> "PREFIX  swrc: <http://swrc.ontoware.org/ontology#>PREFIX  eswc: <http://data.semanticweb.org/conference/eswc/>PREFIX  iswc: <http://data.semanticweb.org/conference/iswc/2009/>PREFIX  dbpedia: <http://dbpedia.org/ontology/>PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX  purl: <http://purl.org/ontology/bibo/>PREFIX  swc:  <http://data.semanticweb.org/ns/swc/ontology#>PREFIX  foaf: <http://xmlns.com/foaf/0.1/>SELECT DISTINCT  *WHERE  { ?paper swc:isPartOf iswc:proceedings .    iswc:proceedings swrc:address ?proceedingAddress .    ?paper swrc:author ?author .    ?author swrc:affiliation ?affiliation .    ?author rdfs:label ?fullnames .    ?author foaf:based_near ?place    OPTIONAL      { ?place dbpedia:capital ?capital .        ?place dbpedia:populationDensity ?populationDensity .        ?place dbpedia:governmentType ?governmentType .        ?place dbpedia:language ?language .        ?place dbpedia:leaderTitle ?leaderTitle      }  }" .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "612.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "173.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#1> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#1-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#1-tp1> <http://aksw.org/schema/hasActualCardinality> "1.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#1-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "5.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "612.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "231.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "413.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "353.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "114.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "4208.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#4>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#4> <http://aksw.org/schema/hasActualCardinality> "2663.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#4> <http://aksw.org/schema/hasEstimatedCardinality> "2655.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#5>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#5> <http://aksw.org/schema/hasActualCardinality> "2393.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#5> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "2313.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#5-tp2>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#5-tp2> <http://aksw.org/schema/hasActualCardinality> "3817.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#5-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#5> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#5-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#5-tp1> <http://aksw.org/schema/hasActualCardinality> "8261.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#5-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#6>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#6> <http://aksw.org/schema/hasActualCardinality> "1361.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#6> <http://aksw.org/schema/hasEstimatedCardinality> "779.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#7>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#7> <http://aksw.org/schema/hasActualCardinality> "1184.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#7> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#8>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#8> <http://aksw.org/schema/hasActualCardinality> "688.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#8> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C8-plan-join#9>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#9> <http://aksw.org/schema/hasActualCardinality> "750.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "2322.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#9-tp2>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp2> <http://aksw.org/schema/hasActualCardinality> "30893.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "550.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "84930.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C8-plan-join#9-tp1>  .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasActualCardinality> "62867.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C8-plan-join#9-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+
+<http://aksw.org/res/Odyssey-C8-plan> <http://aksw.org/schema/hasSimilarity> "0.027462929018407765"^^<http://www.w3.org/2001/XMLSchema#Double>.
+
+
+<http://aksw.org/res/query#C9> <http://aksw.org/schema/text> "PREFIX  drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>PREFIX  dbpedia: <http://dbpedia.org/ontology/>PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>PREFIX  owl:  <http://www.w3.org/2002/07/owl#>SELECT  *WHERE  { ?Drug rdf:type dbpedia:Drug .    ?drugbankDrug owl:sameAs ?Drug .    ?InteractionName drugbank:interactionDrug1 ?drugbankDrug .    ?InteractionName drugbank:interactionDrug2 ?drugbankDrug2 .    ?InteractionName drugbank:text ?IntEffect    OPTIONAL      { ?drugbankDrug drugbank:affectedOrganism 'Humans and other mammals' .        ?drugbankDrug drugbank:description ?description .        ?drugbankDrug drugbank:structure ?structure .        ?drugbankDrug drugbank:casRegistryNumber ?casRegistryNumber      }  }ORDER BY ?drugbankDrugLIMIT   100" .
+<http://aksw.org/res/Odyssey-C9-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C9-plan-join#1>  .
+<http://aksw.org/res/Odyssey-C9-plan-join#1> <http://aksw.org/schema/hasActualCardinality> "1242.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#1> <http://aksw.org/schema/hasEstimatedCardinality> "3.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C9-plan-join#2>  .
+<http://aksw.org/res/Odyssey-C9-plan-join#2> <http://aksw.org/schema/hasActualCardinality> "1242.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan> <http://aksw.org/schema/hasJoin> <http://aksw.org/res/Odyssey-C9-plan-join#3>  .
+<http://aksw.org/res/Odyssey-C9-plan-join#3> <http://aksw.org/schema/hasActualCardinality> "1247.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C9-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "1260.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C9-plan-join#3-tp2>  .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp2> <http://aksw.org/schema/hasActualCardinality> "2240.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp2> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C9-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "1861.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3> <http://aksw.org/schema/hasTriplePattern> <http://aksw.org/res/Odyssey-C9-plan-join#3-tp1>  .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp1> <http://aksw.org/schema/hasActualCardinality> "4772.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+<http://aksw.org/res/Odyssey-C9-plan-join#3-tp1> <http://aksw.org/schema/hasEstimatedCardinality> "0.0"^^<http://www.w3.org/2001/XMLSchema#Double> .
+
+<http://aksw.org/res/query#C10> <http://aksw.org/schema/text> "PREFIX  drugbank: <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/>PREFIX  kegg: <http://bio2rdf.org/ns/kegg#>PREFIX  dbpedia: <http://dbpedia.org/ontology/>PREFIX  purl: <http://purl.org/dc/terms/>PREFIX  tcga: <http://tcga.deri.ie/schema/>SELECT DISTINCT  ?patient ?gender ?country ?popDensity ?drugName ?indication ?formula ?compoundWHERE  { ?uri tcga:bcr_patient_barcode ?patient .    ?patient tcga:gender ?gender .    ?patient dbpedia:country ?country .    ?country dbpedia:populationDensity ?popDensity .    ?patient tcga:bcr_drug_barcode ?drugbcr .    ?drugbcr tcga:drug_name ?drugName .    ?drgBnkDrg drugbank:genericName ?drugName .    ?drgBnkDrg drugbank:indication ?indication .    ?drgBnkDrg drugbank:chemicalFormula ?formula .    ?drgBnkDrg drugbank:keggCompoundId ?compound  }" .
+
+<http://aksw.org/res/query#L1> <http://aksw.org/schema/text> "PREFIX  tcga: <http://tcga.deri.ie/schema/>SELECT  ?expValueWHERE  {   { ?s tcga:bcr_patient_barcode <http://tcga.deri.ie/TCGA-37-3789> .        <http://tcga.deri.ie/TCGA-37-3789> tcga:result ?results .        ?results tcga:RPKM ?expValue      }    UNION      { ?uri tcga:bcr_patient_barcode <http://tcga.deri.ie/TCGA-37-3789> .        <http://tcga.deri.ie/TCGA-37-3789> tcga:result ?geneResults .        ?geneResults tcga:scaled_estimate ?expValue      }  }" .
+
+<http://aksw.org/res/query#L2> <http://aksw.org/schema/text> "PREFIX  tcga: <http://tcga.deri.ie/schema/>SELECT DISTINCT  ?patient ?tumorType ?exonValueWHERE  { ?s tcga:bcr_patient_barcode ?patient .    ?patient tcga:disease_acronym <http://tcga.deri.ie/lusc> .    ?patient tcga:tumor_weight ?weight .    ?patient tcga:tumor_type ?tumorType .    ?patient tcga:result ?results .    ?results tcga:RPKM ?exonValue    FILTER ( ?weight <= 55 )  }" .
+
+<http://aksw.org/res/query#L3> <http://aksw.org/schema/text> "PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>PREFIX  tcga: <http://tcga.deri.ie/schema/>SELECT  ?patient ?methylationValueWHERE  { ?s tcga:bcr_patient_barcode ?patient .    ?patient tcga:vital_status 'Dead' .    ?patient tcga:bcr_drug_barcode ?drug .    ?drug tcga:drug_name 'Tarceva' .    ?patient tcga:age_at_initial_pathologic_diagnosis ?age .    ?patient tcga:result ?results .    ?results tcga:beta_value ?methylationValue    FILTER ( ?age <= 51 )  }ORDER BY ?patient" .

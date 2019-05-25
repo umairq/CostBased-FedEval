@@ -1,0 +1,12 @@
+java.lang.NullPointerException
+	at com.fluidops.fedx.evaluation.FederationEvalStrategy.evaluateSingleSourceQuery(FederationEvalStrategy.java:297)
+	at com.fluidops.fedx.evaluation.FederationEvalStrategy$EvalVisitor.meet(FederationEvalStrategy.java:185)
+	at com.fluidops.fedx.algebra.SingleSourceQuery.visit(SingleSourceQuery.java:110)
+	at com.fluidops.fedx.evaluation.FederationEvalStrategy.evaluate(FederationEvalStrategy.java:211)
+	at org.aksw.simba.quetsal.core.TBSSFederationEvalStrategy.evaluate(TBSSFederationEvalStrategy.java:46)
+	at com.fluidops.fedx.FedXConnection.evaluateInternal(FedXConnection.java:356)
+	at org.eclipse.rdf4j.sail.helpers.AbstractSailConnection.evaluate(AbstractSailConnection.java:267)
+	at org.eclipse.rdf4j.repository.sail.SailTupleQuery.evaluate(SailTupleQuery.java:54)
+	at org.aksw.simba.start.QueryEvaluation.evaluate(QueryEvaluation.java:172)
+	at org.aksw.simba.start.QueryEvaluation.multyEvaluate(QueryEvaluation.java:217)
+	at org.aksw.simba.start.QueryEvaluation.main(QueryEvaluation.java:124)

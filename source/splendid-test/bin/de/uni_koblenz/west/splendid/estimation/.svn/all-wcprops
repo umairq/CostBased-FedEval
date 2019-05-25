@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation
+END
+SPLENDIDCardinalityEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/SPLENDIDCardinalityEstimator.java
+END
+SPLENDIDCostEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/SPLENDIDCostEstimator.java
+END
+ModelEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/ModelEvaluator.java
+END
+TrueCardinalityEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/TrueCardinalityEstimator.java
+END
+AbstractCardinalityEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/AbstractCardinalityEstimator.java
+END
+VoidCardinalityEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/VoidCardinalityEstimator.java
+END
+CardinalityCostEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/CardinalityCostEstimator.java
+END
+DARQCardinalityEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/DARQCardinalityEstimator.java
+END
+AbstractCostEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/estimation/AbstractCostEstimator.java
+END

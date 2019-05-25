@@ -1,0 +1,14 @@
+com.fluidops.fedx.exception.FedXException: Error initializing cache.
+	at com.fluidops.fedx.cache.MemoryCache.initialize(MemoryCache.java:162)
+	at com.fluidops.fedx.FedXFactory.initializeFederation(FedXFactory.java:154)
+	at com.fluidops.fedx.FedXFactory.initializeSparqlFederation(FedXFactory.java:65)
+	at org.aksw.simba.start.QueryEvaluation.evaluate(QueryEvaluation.java:190)
+	at org.aksw.simba.start.QueryEvaluation.multyEvaluate(QueryEvaluation.java:247)
+	at org.aksw.simba.start.QueryEvaluation.main(QueryEvaluation.java:137)
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2675)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3150)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:859)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:355)
+	at com.fluidops.fedx.cache.MemoryCache.initialize(MemoryCache.java:158)
+	... 5 more

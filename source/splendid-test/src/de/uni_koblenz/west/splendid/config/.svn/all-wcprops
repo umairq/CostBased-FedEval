@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/186/trunk/src/de/uni_koblenz/west/splendid/config
+END
+VoidRepositoryConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/VoidRepositoryConfig.java
+END
+SourceSelectorConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/183/trunk/src/de/uni_koblenz/west/splendid/config/SourceSelectorConfig.java
+END
+FederationSailFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/FederationSailFactory.java
+END
+VoidRepositorySchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/VoidRepositorySchema.java
+END
+QueryOptimizerConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/183/trunk/src/de/uni_koblenz/west/splendid/config/QueryOptimizerConfig.java
+END
+InitializedWithSail.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/InitializedWithSail.java
+END
+VoidRepositoryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/VoidRepositoryFactory.java
+END
+FederationSailSchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/FederationSailSchema.java
+END
+AbstractSailConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/183/trunk/src/de/uni_koblenz/west/splendid/config/AbstractSailConfig.java
+END
+FederationSailConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/186/trunk/src/de/uni_koblenz/west/splendid/config/FederationSailConfig.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/package.html
+END
+FederatorConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/173/trunk/src/de/uni_koblenz/west/splendid/config/FederatorConfiguration.java
+END
