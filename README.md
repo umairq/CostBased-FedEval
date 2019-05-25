@@ -7,9 +7,9 @@ We evaluate the query planners of five different cost-based federated SPARQL que
 ### Reproducing Results
 Please follow the steps to reproduce our results. 
 * First you need to setup LargeRDFBench. The complete details can be found from LargeRDFBench [home page](https://github.com/dice-group/largerdfbench)
-* Download the runable jar files of the selected cost-based federation engines from [here](https://drive.google.com/drive/folders/1C6IRs346Ch6b2Alue0PkhTLDXIipHrcg?usp=sharing) except Odyssey, for Odyssey there are many dependencies involved and classes are run using scripts provided in scripts folder of project zip file. Detailed instructions to run the engine is provided at Odyssey [home page](https://github.com/gmontoya/federatedOptimizer), updated code with our metric is available [here](https://github.com/dice-group/CostBased-FedEval/blob/master/federatedOptimizer.rar). 
+* Download the runable jar files of the selected cost-based federation engines from [here](https://github.com/dice-group/CostBased-FedEval/tree/master/jars) except Odyssey, for Odyssey there are many dependencies involved and classes are run using scripts provided in scripts folder of project zip file. Detailed instructions to run the engine is provided at Odyssey [home page](https://github.com/gmontoya/federatedOptimizer), updated code with our metric is available [here](https://github.com/dice-group/CostBased-FedEval/tree/master/source%20code/Odyssey/federatedOptimizer). 
 ## For generating results from jars 
-For generating results after above setups, next step is generate the summaries(not needed for engines using VoID descriptions, as it is already provided along with [source code](https://drive.google.com/file/d/1OUmEsaXETwqvAbd_GR324eW8i_dFyanz/view)) and then run the engine using the jar files, we provided. Running queries on engines will result in producing similarity files which contains information related to Acctual and Estimated cardinalities, and overall similarity values of query plan. You can run the jar files using CLI replacing argumnets with following commands:
+For generating results after above setups, next step is generate the summaries(not needed for engines using VoID descriptions, as it is already provided along with [source code](https://github.com/dice-group/CostBased-FedEval/tree/master/source%20code)) and then run the engine using the jar files, we provided. Running queries on engines will result in producing similarity files which contains information related to Acctual and Estimated cardinalities, and overall similarity values of query plan. You can run the jar files using CLI replacing argumnets with following commands:
 
 **CostFed: Generating summaries:
 ```
@@ -103,11 +103,21 @@ After generating similarity results, these results are loaded into Virtuoso serv
 We have compared 5 - [CostFed](https://svn.aksw.org/papers/2018/SEMANTICS_CostFed/public.pdf), [SPLENDID](http://ceur-ws.org/Vol-782/GoerlitzAndStaab_COLD2011.pdf ), [LHD](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.6974&rep=rep1&type=pdf ), [Odyssey](https://iswc2017.semanticweb.org/wp-content/uploads/papers/MainProceedings/204.pdf ), [SemaGrow](https://www.researchgate.net/publication/281898683_SemaGrow_optimizing_federated_SPARQL_queries) - state-of-the-art SPARQL endpoint federation systems using LargeRDFBench on our proposed metric.
 Our complete evaluation results can be found [here](https://docs.google.com/spreadsheets/d/1ue0pbR1cZNlmZcETo3pcgqme1vA5DVoNS_1KF8BCwfc/edit?usp=sharing)
 
-### Maintainability and Reuse
-We will be maintaining the benchmark code for the users. This benchmark could be adopted for future generation engines. In order to reuse the benchmark for particular cost-based engine, users needs to modify the engine and reuse our relative error classes in [code](https://github.com/dice-group/CostBased-FedEval/tree/master/code) folder with some modifications in engine to get real and estimated cardinality or every join and triple pattern. User can refer to the code changes in the five engines (modified files in code section). It could also be done by posting an issue on our issue page or emailing to one of the author of the paper. 
+### Canonical Citations
 
-The vision of our work is to provide support for the future generation engines to focus more on better cardinality estimation. In paper's experiments section, results shows better cardinality estimation yeilds better execution time. Particularly joins cardinality estimation is more strongly correlated so the focus should be more on better join cardinality estimation. 
+M. Saleem, A. Potocki, T. Soru, O. Hartig, and A.-C. Ngonga Ngomo.  Costfed:Cost-based query optimization for sparql endpoint federation.  06 2018.
 
+G. Montoya, H. Skaf-Molli, and K. Hose.  The odyssey approach for optimizingfederated  sparql  queries.   In  C.  d’Amato,  M.  Fernandez,  V.  Tamma,  F.  Lecue,P. Cudr ́e-Mauroux, J. Sequeda, C. Lange, and J. Heflin, editors,The SemanticWeb – ISWC 2017, pages 471–489, Cham, 2017. Springer International Publishing.
+
+A. Charalambidis, A. Troumpoukis, and S. Konstantopoulos. Semagrow: Optimizingfederated sparql queries.  InProceedings of the 11th International Conference onSemantic Systems, SEMANTICS ’15, pages 121–128, New York, NY, USA, 2015.ACM.
+
+X. Wang, T. Tiropanis, and H. Davis. Lhd: Optimising linked data query processingusing parallelisation.CEUR Workshop Proceedings, 996, 05 2013.
+
+O. G ̈orlitz and S.  Staab.   Splendid:  Sparql endpoint federation  exploiting voiddescriptions.  InProceedings of the Second International Conference on ConsumingLinked Data - Volume 782, COLD’11, pages 13–24, Aachen, Germany, Germany,2010. CEUR-WS.org.
+
+
+### Future plan: 
+We will add the resource results in to [RdfStoreBenchmarking](https://www.w3.org/wiki/RdfStoreBenchmarking) same like we did for our other published benchmarking results such as DBpedia SPARQL benchmark, FEASIBL, Federation evaluation 
 
 ### Authors
   * Umair Qudus (DKE, Kyung Hee University) 
