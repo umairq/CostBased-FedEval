@@ -72,7 +72,7 @@ Second thing which is important to notice is that, in other engines except LHD q
 For the case of oddyssey, first you need to extract [project](federatedOptimizer.rar), second step will be to compile the code in code folder, and then you need to run the script(executeQueriesOdyssey.sh) in scripts folder replacing some paths in the script file. For complete instruction you may refer to project readme [file](https://github.com/gmontoya/federatedOptimizer/blob/master/README.md) and [issue page](https://github.com/gmontoya/federatedOptimizer/issues/2), that we posted in order to run the engine successfully. 
 
 ### Generating Results from Source code
-Download the source code from [here](https://drive.google.com/file/d/1OUmEsaXETwqvAbd_GR324eW8i_dFyanz/view?usp=sharing). Unzip the folder which contains 5 -- CostFed, LHD, SemaGrow, splendid-test, Odyssey -- java projects. Each project could be compiled and run seperately. Main files are as following (arguments will be same as in jar files discussed before):
+Source code is available [here](https://github.com/dice-group/CostBased-FedEval/tree/master/source%20code) , Import each engine as seperate project. It contains 5 -- CostFed, LHD, SemaGrow, splendid-test, Odyssey -- java projects. Each project could be compiled and run seperately. Main files are as following (arguments will be same as in jar files discussed before):
 
 ```
 //Execute Queries on SemaGrow from 
@@ -101,7 +101,7 @@ After generating similarity results, these results are loaded into Virtuoso serv
 
 ### Complete Evaluation Results
 We have compared 5 - [CostFed](https://svn.aksw.org/papers/2018/SEMANTICS_CostFed/public.pdf), [SPLENDID](http://ceur-ws.org/Vol-782/GoerlitzAndStaab_COLD2011.pdf ), [LHD](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.6974&rep=rep1&type=pdf ), [Odyssey](https://iswc2017.semanticweb.org/wp-content/uploads/papers/MainProceedings/204.pdf ), [SemaGrow](https://www.researchgate.net/publication/281898683_SemaGrow_optimizing_federated_SPARQL_queries) - state-of-the-art SPARQL endpoint federation systems using LargeRDFBench on our proposed metric.
-Our complete evaluation results can be found [here](https://docs.google.com/spreadsheets/d/1ue0pbR1cZNlmZcETo3pcgqme1vA5DVoNS_1KF8BCwfc/edit?usp=sharing)
+Our complete evaluation results can be found [here](https://github.com/dice-group/CostBased-FedEval/blob/master/results/similarityResults/Result/CostBased-FedEval-Results%20(1).xlsx)
 
 ### Canonical Citations
 
