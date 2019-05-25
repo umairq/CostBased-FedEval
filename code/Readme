@@ -1,1 +1,0 @@
-This folder contains the files which user needs to modify before using our benchmark. In order to run Cost Based Evaluation user need to update these files in each engine. These files are used to calculate the real and estimated cardinality from each engine in order to apply our benchmark. 
