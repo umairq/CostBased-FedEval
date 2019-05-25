@@ -101,7 +101,7 @@ After generating similarity results, these results are loaded into Virtuoso serv
 
 ### Complete Evaluation Results
 We have compared 5 - [CostFed](https://svn.aksw.org/papers/2018/SEMANTICS_CostFed/public.pdf), [SPLENDID](http://ceur-ws.org/Vol-782/GoerlitzAndStaab_COLD2011.pdf ), [LHD](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.6974&rep=rep1&type=pdf ), [Odyssey](https://iswc2017.semanticweb.org/wp-content/uploads/papers/MainProceedings/204.pdf ), [SemaGrow](https://www.researchgate.net/publication/281898683_SemaGrow_optimizing_federated_SPARQL_queries) - state-of-the-art SPARQL endpoint federation systems using LargeRDFBench on our proposed metric.
-Our complete evaluation results can be found [here](https://github.com/dice-group/CostBased-FedEval/blob/master/results/similarityResults/Result/CostBased-FedEval-Results%20(1).xlsx)
+Our complete evaluation results can be found [here](https://github.com/dice-group/CostBased-FedEval/blob/master/results/CostBased-FedEval-Results%20(1)%20(1).xlsx)
 
 ### Canonical Citations
 
