@@ -117,7 +117,7 @@ O. G ̈orlitz and S.  Staab.   Splendid:  Sparql endpoint federation  exploiting
 
 
 ### Future plan: 
-We will add the resource results in to [RdfStoreBenchmarking](https://www.w3.org/wiki/RdfStoreBenchmarking) same like we did for our other published benchmarking results such as DBpedia SPARQL benchmark, FEASIBL, Federation evaluation 
+We will add the resource results in to [RdfStoreBenchmarking](https://www.w3.org/wiki/RdfStoreBenchmarking) same like we did for our other published benchmarking results such as [DBpedia SPARQL benchmark](http://jens-lehmann.org/files/2011/dbpsb.pdf), [FEASIBL](http://svn.aksw.org/papers/2015/ISWC_FEASIBLE/public.pdf) and Federation evaluation.
 
 ### Authors
   * Umair Qudus (DKE, Kyung Hee University) 
